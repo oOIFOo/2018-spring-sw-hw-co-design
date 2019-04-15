@@ -1,0 +1,1254 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Apr 27 10:47:01 2018
+# Process ID: 224
+# Current directory: C:/Users/shlab_81/Desktop/midterm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4588 C:\Users\shlab_81\Desktop\midterm\midterm.xpr
+# Log file: C:/Users/shlab_81/Desktop/midterm/vivado.log
+# Journal file: C:/Users/shlab_81/Desktop/midterm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/shlab_81/Desktop/midterm/midterm.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/shlab_89/Desktop/midterm' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'midterm_auto_pc_0' generated file not found 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/stats.txt'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 892.703 ; gain = 166.078
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+ipx::edit_ip_in_project -upgrade true -name matrix_multiplication_v1_0_v1_0_project -directory C:/Users/shlab_81/Desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/shlab_81/desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 892.703 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 892.703 ; gain = 0.000
+update_compile_order -fileset sources_1
+current_project midterm
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 10:48:57 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+ipx::unload_core c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/.Xil/Vivado-224-shlab_81-PC/dcp1/midterm_wrapper_board.xdc]
+Finished Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/.Xil/Vivado-224-shlab_81-PC/dcp1/midterm_wrapper_board.xdc]
+Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/.Xil/Vivado-224-shlab_81-PC/dcp1/midterm_wrapper_early.xdc]
+Finished Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/.Xil/Vivado-224-shlab_81-PC/dcp1/midterm_wrapper_early.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.506 . Memory (MB): peak = 1139.848 ; gain = 1.078
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.506 . Memory (MB): peak = 1139.848 ; gain = 1.078
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 1232.102 ; gain = 326.836
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file mkdir C:/Users/shlab_81/Desktop/midterm/midterm.sdk
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:user:matrix_multiplication:1.0 - matrix_multiplication_0
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <midterm> from BD file <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1695.480 ; gain = 26.199
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 {midterm_matrix_multiplication_0_0_synth_1 midterm_auto_pc_0_synth_1}
+[Fri Apr 27 11:31:18 2018] Launched midterm_matrix_multiplication_0_0_synth_1, midterm_auto_pc_0_synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+midterm_auto_pc_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1
+
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 11:31:47 2018] Launched midterm_matrix_multiplication_0_0_synth_1, midterm_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+midterm_auto_pc_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_auto_pc_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 11:31:47 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 11:35:41 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 11:35:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 11:36:14 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 11:36:14 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project matrix_multiplication_v1_0_v1_0_project
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'
+ipx::edit_ip_in_project -upgrade true -name matrix_multiplication_v1_0_v1_0_project -directory C:/Users/shlab_81/Desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/shlab_81/desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+update_compile_order -fileset sources_1
+current_project midterm
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1.169 MB.
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 11:37:03 2018] Launched midterm_matrix_multiplication_0_0_synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 11:37:15 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 11:37:15 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 11:37:41 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 11:37:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 11:38:33 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 11:38:33 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1.169 MB.
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 11:42:19 2018] Launched midterm_matrix_multiplication_0_0_synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 11:42:31 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 11:42:31 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+ipx::unload_core c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+report_ip_status -name ip_status 
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1.519 MB.
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 12:32:36 2018] Launched midterm_matrix_multiplication_0_0_synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 12:32:50 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 12:32:50 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+INFO: [IP_Flow 19-1972] Upgraded midterm_matrix_multiplication_0_0 from matrix_multiplication_v1.0 1.0 to matrix_multiplication_v1.0 1.0
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1.519 MB.
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 12:36:27 2018] Launched midterm_matrix_multiplication_0_0_synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1.519 MB.
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 12:37:14 2018] Launched midterm_matrix_multiplication_0_0_synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.dcp' for cell 'midterm_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.dcp' for cell 'midterm_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0.dcp' for cell 'midterm_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.xdc] for cell 'midterm_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.xdc] for cell 'midterm_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0_board.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0_board.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/midterm.srcs/constrs_1/new/midterm_wrapper.xdc]
+Finished Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/midterm.srcs/constrs_1/new/midterm_wrapper.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+CRITICAL WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'midterm_matrix_multiplication_0_0' instantiated as 'midterm_i/matrix_multiplication_0' [C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v:140]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 2283.578 ; gain = 162.625
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_matrix_multiplication_0_0/midterm_matrix_multiplication_0_0.dcp' for cell 'midterm_i/matrix_multiplication_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.dcp' for cell 'midterm_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.dcp' for cell 'midterm_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0.dcp' for cell 'midterm_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.xdc] for cell 'midterm_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.xdc] for cell 'midterm_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0_board.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0_board.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/midterm.srcs/constrs_1/new/midterm_wrapper.xdc]
+Finished Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/midterm.srcs/constrs_1/new/midterm_wrapper.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2283.922 ; gain = 0.344
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list midterm_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 5 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[4]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 5 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[4]} ]]
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 27 12:38:57 2018] Launched synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 12:38:57 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248774805
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7z020_1 and the probes file(s) C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0 was not found in the design.
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1 was not found in the design.
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2 was not found in the design.
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3 was not found in the design.
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4 was not found in the design.
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5 was not found in the design.
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/send_counter was not found in the design.
+WARNING: Simulation object midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/receive_counter was not found in the design.
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next} }
+set_property TRIGGER_COMPARE_VALUE eq5'u0 [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq5'u1 [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Apr-27 12:48:06
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Apr-27 12:48:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1
+
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 4.062 MB.
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 12:49:03 2018] Launched midterm_matrix_multiplication_0_0_synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+wait_on_run midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 12:49:32 2018] Waiting for midterm_matrix_multiplication_0_0_synth_1 to finish...
+[Fri Apr 27 12:49:38 2018] Waiting for midterm_matrix_multiplication_0_0_synth_1 to finish...
+[Fri Apr 27 12:49:43 2018] Waiting for midterm_matrix_multiplication_0_0_synth_1 to finish...
+[Fri Apr 27 12:49:48 2018] Waiting for midterm_matrix_multiplication_0_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log midterm_matrix_multiplication_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source midterm_matrix_multiplication_0_0.tcl
+
+
+****** Vivado v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source midterm_matrix_multiplication_0_0.tcl -notrace
+Command: synth_design -top midterm_matrix_multiplication_0_0 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 9988 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 359.707 ; gain = 75.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'midterm_matrix_multiplication_0_0' [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_matrix_multiplication_0_0/synth/midterm_matrix_multiplication_0_0.v:57]
+INFO: [Synth 8-638] synthesizing module 'matrix_multiplication_v1_0' [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'matrix_multiplication_v1_0_S00_AXI' [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 2 - type: integer 
+	Parameter S_MAIN_WAIT bound to: 0 - type: integer 
+	Parameter S_MAIN_START bound to: 1 - type: integer 
+	Parameter S_MAIN_ONE bound to: 2 - type: integer 
+	Parameter S_MAIN_TWO bound to: 3 - type: integer 
+	Parameter S_MAIN_SEND bound to: 4 - type: integer 
+	Parameter S_MAIN_CLEAR bound to: 5 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:107]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:108]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:109]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:110]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:111]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:112]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:134]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:143]
+WARNING: [Synth 8-6014] Unused sequential element byte_index was removed.  [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:268]
+INFO: [Synth 8-256] done synthesizing module 'matrix_multiplication_v1_0_S00_AXI' (1#1) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'matrix_multiplication_v1_0' (2#1) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0.v:4]
+INFO: [Synth 8-256] done synthesizing module 'midterm_matrix_multiplication_0_0' (3#1) [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_matrix_multiplication_0_0/synth/midterm_matrix_multiplication_0_0.v:57]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 399.281 ; gain = 115.293
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 399.281 ; gain = 115.293
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 713.418 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 713.418 ; gain = 429.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 713.418 ; gain = 429.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 713.418 ; gain = 429.430
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "P_next" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "ansx" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "slv_reg2" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element ansx_reg was removed.  [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:169]
+WARNING: [Synth 8-6014] Unused sequential element ansy_reg was removed.  [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ipshared/40a8/hdl/matrix_multiplication_v1_0_S00_AXI.v:170]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 713.418 ; gain = 429.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 12    
+	   7 Input     32 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 24    
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module matrix_multiplication_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	                8 Bit    Registers := 2     
+	                5 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 12    
+	   7 Input     32 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 24    
+	   2 Input      3 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "P_next" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design matrix_multiplication_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'inst/matrix_multiplication_v1_0_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'inst/matrix_multiplication_v1_0_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/matrix_multiplication_v1_0_S00_AXI_inst /\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'inst/matrix_multiplication_v1_0_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'inst/matrix_multiplication_v1_0_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\inst/matrix_multiplication_v1_0_S00_AXI_inst /\axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (axi_bresp_reg[1]) is unused and will be removed from module matrix_multiplication_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[1]) is unused and will be removed from module matrix_multiplication_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[0]) is unused and will be removed from module matrix_multiplication_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[1]) is unused and will be removed from module matrix_multiplication_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[0]) is unused and will be removed from module matrix_multiplication_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_rresp_reg[1]) is unused and will be removed from module matrix_multiplication_v1_0_S00_AXI.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 713.418 ; gain = 429.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 713.418 ; gain = 429.430
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 713.418 ; gain = 429.430
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    15|
+|2     |LUT1   |    15|
+|3     |LUT2   |    36|
+|4     |LUT3   |     9|
+|5     |LUT4   |   122|
+|6     |LUT5   |    50|
+|7     |LUT6   |   141|
+|8     |FDRE   |   254|
+|9     |FDSE   |     3|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------------------------+-----------------------------------+------+
+|      |Instance                                    |Module                             |Cells |
++------+--------------------------------------------+-----------------------------------+------+
+|1     |top                                         |                                   |   645|
+|2     |  inst                                      |matrix_multiplication_v1_0         |   642|
+|3     |    matrix_multiplication_v1_0_S00_AXI_inst |matrix_multiplication_v1_0_S00_AXI |   638|
++------+--------------------------------------------+-----------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 731.461 ; gain = 133.336
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 731.461 ; gain = 447.473
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+32 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 731.461 ; gain = 451.102
+INFO: [Common 17-1381] The checkpoint 'C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/midterm_matrix_multiplication_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_matrix_multiplication_0_0/midterm_matrix_multiplication_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 2 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/midterm_matrix_multiplication_0_0.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 731.461 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 27 12:49:42 2018...
+[Fri Apr 27 12:49:48 2018] midterm_matrix_multiplication_0_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 2516.281 ; gain = 0.000
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+refresh_design
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_matrix_multiplication_0_0/midterm_matrix_multiplication_0_0.dcp' for cell 'midterm_i/matrix_multiplication_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.dcp' for cell 'midterm_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.dcp' for cell 'midterm_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0.dcp' for cell 'midterm_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.xdc] for cell 'midterm_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_processing_system7_0_0/midterm_processing_system7_0_0.xdc] for cell 'midterm_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0_board.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0_board.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_rst_ps7_0_100M_0/midterm_rst_ps7_0_100M_0.xdc] for cell 'midterm_i/rst_ps7_0_100M/U0'
+Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/midterm.srcs/constrs_1/new/midterm_wrapper.xdc]
+Finished Parsing XDC File [C:/Users/shlab_81/Desktop/midterm/midterm.srcs/constrs_1/new/midterm_wrapper.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2525.398 ; gain = 9.117
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list midterm_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 5 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[4]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 5 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[4]} ]]
+save_constraints
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 27 12:50:33 2018] Launched synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 12:50:33 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5} }
+set_property NAME.CUSTOM {slv_reg0[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0] 
+set_property NAME.CUSTOM {slv_reg1[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1] 
+set_property NAME.CUSTOM {slv_reg2[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2] 
+set_property NAME.CUSTOM {slv_reg3[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3] 
+set_property NAME.CUSTOM {slv_reg4[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4] 
+set_property NAME.CUSTOM {slv_reg5[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5] 
+set_property TRIGGER_COMPARE_VALUE eq5'hXX [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Apr-27 12:59:51
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Apr-27 12:59:59
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Apr-27 13:05:31
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Apr-27 13:05:38
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Apr-27 13:06:41
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Apr-27 13:06:49
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+****** Webtalk v2017.2 (64-bit)
+  **** SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+  **** IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source c:/users/shlab_81/desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project/matrix_multiplication_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 61.352 ; gain = 0.207
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 27 13:09:38 2018...
+close_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 2534.273 ; gain = 0.000
+update_ip_catalog -rebuild -repo_path c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'
+ipx::edit_ip_in_project -upgrade true -name matrix_multiplication_v1_0_v1_0_project -directory C:/Users/shlab_81/Desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'c:/users/shlab_81/desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+update_compile_order -fileset sources_1
+current_project midterm
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1
+
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 7.551 MB.
+current_project matrix_multiplication_v1_0_v1_0_project
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+WARNING: [Vivado 12-818] No files matched 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+WARNING: [Vivado 12-818] No files matched 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+ERROR: [Vivado 12-3447] No sub-design file provided.
+current_project midterm
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 27 13:10:27 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 13:10:27 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Apr-27 13:16:41
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Apr-27 13:16:48
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 10 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0
+INFO: [IP_Flow 19-725] Reloaded user IP repository 'c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0'
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Apr 27 13:23:35 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Apr-27 13:25:07
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Apr-27 13:25:14
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+Upgrading 'C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd'
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1
+
+INFO: [IP_Flow 19-3420] Updated midterm_matrix_multiplication_0_0 to use current project options
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_81/Desktop/midterm/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+Wrote  : <C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd> 
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.v
+Verilog Output written to : C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block matrix_multiplication_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/ip/midterm_auto_pc_0/midterm_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm.hwh
+Generated Block Design Tcl file C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hw_handoff/midterm_bd.tcl
+Generated Hardware Definition File C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/hdl/midterm.hwdef
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP midterm_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 8.028 MB.
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+[Fri Apr 27 13:25:40 2018] Launched midterm_matrix_multiplication_0_0_synth_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1
+
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Fri Apr 27 13:25:53 2018] Launched midterm_matrix_multiplication_0_0_synth_1, synth_1...
+Run output will be captured here:
+midterm_matrix_multiplication_0_0_synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/midterm_matrix_multiplication_0_0_synth_1/runme.log
+synth_1: C:/Users/shlab_81/Desktop/midterm/midterm.runs/synth_1/runme.log
+[Fri Apr 27 13:25:53 2018] Launched impl_1...
+Run output will be captured here: C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/runme.log
+report_ip_status -name ip_status 
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Apr-27 13:31:57
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Apr-27 13:32:02
+INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_81/Desktop/midterm/midterm.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data.

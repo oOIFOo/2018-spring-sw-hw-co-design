@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Jun 22 13:17:06 2018
+# Process ID: 7068
+# Current directory: c:/Users/shlab_23/Downloads/final_student/final_exam
+# Command line: wbtcv.exe -mode batch -source c:/users/shlab_23/downloads/final_student/final_exam/final_exam.tmp/final_ip_v1_0_v1_0_project/final_ip_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: c:/Users/shlab_23/Downloads/final_student/final_exam/webtalk.log
+# Journal file: c:/Users/shlab_23/Downloads/final_student/final_exam\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/shlab_23/downloads/final_student/final_exam/final_exam.tmp/final_ip_v1_0_v1_0_project/final_ip_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'c:/users/shlab_23/downloads/final_student/final_exam/final_exam.tmp/final_ip_v1_0_v1_0_project/final_ip_v1_0_v1_0_project.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Fri Jun 22 13:17:08 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2017.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun 22 13:17:08 2018...

@@ -1,0 +1,2685 @@
+'Finished building: ../src/image.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118084	   2640	  26400	 147124	  23eb4	final.elf
+'Finished building: final.elf.size'
+' '
+14:24:24 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:24:39 **** Clean-only build of configuration Debug for project final ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/image.o ./src/platform.o  ./src/helloworld.d ./src/image.d ./src/platform.d  final.elf.size  final.elf
+' '
+14:24:39 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/image.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/image.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image.d" -MT"src/image.o" -o "src/image.o" "../src/image.c"
+'Finished building: ../src/image.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	  26400	 146776	  23d58	final.elf
+'Finished building: final.elf.size'
+' '
+15:11:21 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:11:40 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:12:41 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+15:12:44 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:35:22 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:36:29 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:36:56 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:41:04 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+15:41:08 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:55:30 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117760	   2640	33572640	33693040	2021d70	final.elf
+'Finished building: final.elf.size'
+' '
+15:59:20 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:227:44: error: 'face' undeclared (first use in this function)
+   memcpy((void *) group_regs, face1->pix+y*face->width, 32);
+                                            ^~~~
+../src/helloworld.c:227:44: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+15:59:31 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:230:35: error: 'face' undeclared (first use in this function)
+  for (col = 0; col < group->width-face->width; col++) {
+                                   ^~~~
+../src/helloworld.c:230:35: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/helloworld.o] Error 1
+15:59:46 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118020	   2640	33572640	33693300	2021e74	final.elf
+'Finished building: final.elf.size'
+' '
+16:02:22 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118024	   2640	33572640	33693304	2021e78	final.elf
+'Finished building: final.elf.size'
+' '
+16:19:28 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118088	   2640	33572640	33693368	2021eb8	final.elf
+'Finished building: final.elf.size'
+' '
+18:21:12 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:22:10 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:29:04 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:49:36 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118088	   2640	33572640	33693368	2021eb8	final.elf
+'Finished building: final.elf.size'
+' '
+18:50:15 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118088	   2640	33572640	33693368	2021eb8	final.elf
+'Finished building: final.elf.size'
+' '
+19:03:32 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:15:05 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118092	   2640	33572640	33693372	2021ebc	final.elf
+'Finished building: final.elf.size'
+' '
+19:15:10 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:16:01 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:17:45 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:59:31 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:00:49 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118408	   2640	33572640	33693688	2021ff8	final.elf
+'Finished building: final.elf.size'
+' '
+20:01:31 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:224:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118088	   2640	33572640	33693368	2021eb8	final.elf
+'Finished building: final.elf.size'
+' '
+20:01:35 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:07:45 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:284:9: error: 'min_sad' undeclared (first use in this function)
+  return min_sad;
+         ^~~~~~~
+../src/helloworld.c:284:9: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:227:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+../src/helloworld.c:285:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+20:07:57 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:227:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118536	   2648	33572640	33693824	2022080	final.elf
+'Finished building: final.elf.size'
+' '
+20:38:40 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:47:14: error: storage class specified for parameter 'fatfs'
+ static FATFS fatfs;
+              ^~~~~
+../src/helloworld.c:50:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:130:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:144:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:164:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:184:1: error: parameter 'group_regs' is initialized
+ volatile int *group_regs  = (int *) (XPAR_COMPUTE_SAD_0_S00_AXI_BASEADDR +  0);
+ ^~~~~~~~
+../src/helloworld.c:185:1: error: parameter 'reg_bank' is initialized
+ volatile int *reg_bank = (int *) (XPAR_COMPUTE_SAD_0_S00_AXI_BASEADDR + 32);
+ ^~~~~~~~
+../src/helloworld.c:186:1: error: parameter 'hw_active' is initialized
+ volatile int *hw_active  = (int *) (XPAR_COMPUTE_SAD_0_S00_AXI_BASEADDR + 36);
+ ^~~~~~~~
+../src/helloworld.c:187:1: error: parameter 'sad_result1' is initialized
+ volatile int *sad_result1 = (int *) (XPAR_COMPUTE_SAD_0_S00_AXI_BASEADDR + 40);
+ ^~~~~~~~
+../src/helloworld.c:188:1: error: parameter 'sad_result2' is initialized
+ volatile int *sad_result2 = (int *) (XPAR_COMPUTE_SAD_0_S00_AXI_BASEADDR + 44);
+ ^~~~~~~~
+../src/helloworld.c:189:1: error: parameter 'sad_result3' is initialized
+ volatile int *sad_result3 = (int *) (XPAR_COMPUTE_SAD_0_S00_AXI_BASEADDR + 48);
+ ^~~~~~~~
+../src/helloworld.c:190:1: error: parameter 'sad_result4' is initialized
+ volatile int *sad_result4 = (int *) (XPAR_COMPUTE_SAD_0_S00_AXI_BASEADDR + 52);
+ ^~~~~~~~
+../src/helloworld.c:192:61: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ int32 compute_sad(uint8 *group, int width, int row, int col){
+                                                             ^
+../src/helloworld.c:234:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:43:7: error: old-style parameter declarations in prototyped function definition
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:293:1: error: expected '{' at end of input
+ }
+ ^
+../src/helloworld.c:293:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+20:39:17 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:111:12: error: too few arguments to function 'match'
+     cost = match(&group, &face1, &face2, &face3, &face4, &posx1, &posy1);
+            ^~~~~
+../src/helloworld.c:43:7: note: declared here
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:269:6: error: 'posx' undeclared (first use in this function)
+     *posx = col;
+      ^~~~
+../src/helloworld.c:269:6: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:270:6: error: 'posy' undeclared (first use in this function)
+     *posy = row;
+      ^~~~
+../src/helloworld.c:235:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+make: *** [src/helloworld.o] Error 1
+20:40:16 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:235:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118656	   2648	33572640	33693944	20220f8	final.elf
+'Finished building: final.elf.size'
+' '
+20:41:19 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:112:12: error: too few arguments to function 'match'
+     cost = match(&group, &face1, &face2, &face3, &face4, &posx1, &posy1, &posx2, &posy2, &posx3, &posy3, &posx4, &posy4);
+            ^~~~~
+../src/helloworld.c:43:7: note: declared here
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:235:3: error: expected ';', ',' or ')' before 'int'
+   int *min1, int *min2, int *min3, int *min4)
+   ^~~
+make: *** [src/helloworld.o] Error 1
+20:41:24 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:112:12: error: too few arguments to function 'match'
+     cost = match(&group, &face1, &face2, &face3, &face4, &posx1, &posy1, &posx2, &posy2, &posx3, &posy3, &posx4, &posy4);
+            ^~~~~
+../src/helloworld.c:43:7: note: declared here
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:237:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+make: *** [src/helloworld.o] Error 1
+20:43:50 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:112:5: error: 'cost' undeclared (first use in this function)
+     cost = match(&group, &face1, &face2, &face3, &face4, &posx1, &posy1, &posx2, &posy2, &posx3, &posy3, &posx4, &posy4
+     ^~~~
+../src/helloworld.c:112:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:113:7: error: invalid operands to binary & (have 'int *' and 'int32 {aka long int}')
+     cost = match(&group, &face1, &face2, &face3, &face4, &posx1, &posy1, &posx2, &posy2, &posx3, &posy3, &posx4, &posy4
+                                                                                                                  ~~~~~~
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:113:15: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:112:12: error: too few arguments to function 'match'
+     cost = match(&group, &face1, &face2, &face3, &face4, &posx1, &posy1, &posx2, &posy2, &posx3, &posy3, &posx4, &posy4
+            ^~~~~
+../src/helloworld.c:43:7: note: declared here
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+make: *** [src/helloworld.o] Error 1
+20:43:57 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:112:5: error: 'cost' undeclared (first use in this function)
+     cost = match(&group, &face1, &face2, &face3, &face4, &posx1, &posy1, &posx2, &posy2, &posx3, &posy3, &posx4, &posy4,
+     ^~~~
+../src/helloworld.c:112:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+make: *** [src/helloworld.o] Error 1
+20:44:23 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118752	   2648	33572640	33694040	2022158	final.elf
+'Finished building: final.elf.size'
+' '
+20:44:35 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118748	   2648	33572640	33694036	2022154	final.elf
+'Finished building: final.elf.size'
+' '
+20:45:05 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:45:11 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:45:55 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:47:24 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118748	   2648	33572640	33694036	2022154	final.elf
+'Finished building: final.elf.size'
+' '
+20:47:27 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:52:26 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:54:24 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:57:23 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:58:40 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:58:56 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118676	   2648	33572640	33693964	202210c	final.elf
+'Finished building: final.elf.size'
+' '
+20:58:59 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+20:59:14 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118736	   2648	33572640	33694024	2022148	final.elf
+'Finished building: final.elf.size'
+' '
+20:59:17 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:02:10 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118748	   2648	33572640	33694036	2022154	final.elf
+'Finished building: final.elf.size'
+' '
+21:02:19 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:05:15 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:06:17 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118748	   2648	33572640	33694036	2022154	final.elf
+'Finished building: final.elf.size'
+' '
+21:06:20 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:08:05 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118748	   2648	33572640	33694036	2022154	final.elf
+'Finished building: final.elf.size'
+' '
+21:08:09 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:10:51 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118748	   2648	33572640	33694036	2022154	final.elf
+'Finished building: final.elf.size'
+' '
+21:10:56 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118748	   2648	33572640	33694036	2022154	final.elf
+'Finished building: final.elf.size'
+' '
+21:11:00 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:11:52 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+21:13:37 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:14:22 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:15:00 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:25:29 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+21:25:32 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:32:01 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:36:01 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:37:08 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:37:48 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:38:17 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:38:55 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:44:29 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:44:34 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:214:7: error: conflicting types for 'compute_sad'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:42:7: note: previous declaration of 'compute_sad' was here
+ int32 compute_sad(uint8 *im1, int w1, int row, int col);
+       ^~~~~~~~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:243:49: warning: passing argument 3 of 'compute_sad' makes pointer from integer without a cast [-Wint-conversion]
+     sad = compute_sad(group->pix, group->width, row, col);
+                                                 ^~~
+../src/helloworld.c:214:7: note: expected 'uint8 * {aka unsigned char *}' but argument is of type 'int32 {aka long int}'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:243:11: error: too few arguments to function 'compute_sad'
+     sad = compute_sad(group->pix, group->width, row, col);
+           ^~~~~~~~~~~
+../src/helloworld.c:214:7: note: declared here
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:252:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int32 {aka long int}' [-Wformat=]
+  printf("%d\n", min_sad1);
+           ^
+../src/helloworld.c:238:53: warning: unused variable 'min_sad4' [-Wunused-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                                                     ^~~~~~~~
+../src/helloworld.c:238:43: warning: unused variable 'min_sad3' [-Wunused-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                                           ^~~~~~~~
+../src/helloworld.c:238:33: warning: unused variable 'min_sad2' [-Wunused-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                                 ^~~~~~~~
+make: *** [src/helloworld.o] Error 1
+21:45:12 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: At top level:
+../src/helloworld.c:214:7: error: conflicting types for 'compute_sad'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:42:7: note: previous declaration of 'compute_sad' was here
+ int32 compute_sad(uint8 *im1, int w1, int row, int col);
+       ^~~~~~~~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:240:3: error: 'hw_active' undeclared (first use in this function)
+  *hw_active = 2;
+   ^~~~~~~~~
+../src/helloworld.c:240:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:242:4: error: 'reg_bank' undeclared (first use in this function)
+   *reg_bank = y;
+    ^~~~~~~~
+../src/helloworld.c:243:19: error: 'group_regs' undeclared (first use in this function)
+   memcpy((void *) group_regs, face1->pix+y*face1->width, 32);
+                   ^~~~~~~~~~
+../src/helloworld.c:267:48: warning: passing argument 3 of 'compute_sad' makes pointer from integer without a cast [-Wint-conversion]
+    sad = compute_sad(group->pix, group->width, row, col);
+                                                ^~~
+../src/helloworld.c:214:7: note: expected 'uint8 * {aka unsigned char *}' but argument is of type 'int32 {aka long int}'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:267:10: error: too few arguments to function 'compute_sad'
+    sad = compute_sad(group->pix, group->width, row, col);
+          ^~~~~~~~~~~
+../src/helloworld.c:214:7: note: declared here
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:268:9: error: 'sad_result1' undeclared (first use in this function)
+    if (*sad_result1 <= min_sad1){
+         ^~~~~~~~~~~
+../src/helloworld.c:274:9: error: 'sad_result2' undeclared (first use in this function)
+    if (*sad_result2 <= min_sad2){
+         ^~~~~~~~~~~
+../src/helloworld.c:280:9: error: 'sad_result3' undeclared (first use in this function)
+    if (*sad_result3 <= min_sad3){
+         ^~~~~~~~~~~
+../src/helloworld.c:286:9: error: 'sad_result4' undeclared (first use in this function)
+    if (*sad_result4 <= min_sad4){
+         ^~~~~~~~~~~
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+make: *** [src/helloworld.o] Error 1
+21:45:51 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+21:46:32 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:47:48 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+21:48:36 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117416	   2624	33572640	33692680	2021c08	final.elf
+'Finished building: final.elf.size'
+' '
+21:48:45 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117416	   2624	33572640	33692680	2021c08	final.elf
+'Finished building: final.elf.size'
+' '
+21:48:48 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:23:47 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+22:23:53 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:25:01 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117416	   2624	33572640	33692680	2021c08	final.elf
+'Finished building: final.elf.size'
+' '
+22:25:32 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+22:25:36 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+22:25:56 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+22:26:00 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:34:41 **** Build of project final_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/compute_sad_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/compute_sad_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/compute_sad_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/compute_sad_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling compute_sad..."
+compute_sad_selftest.c: In function 'COMPUTE_SAD_Reg_SelfTest':
+compute_sad_selftest.c:52:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( COMPUTE_SAD_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+compute_sad_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:218:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling XilFFs Library"
+'Finished building libraries'
+13:36:11 **** Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/image.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/image.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image.d" -MT"src/image.o" -o "src/image.o" "../src/image.c"
+'Finished building: ../src/image.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+13:36:15 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:38:25 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:40:05 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+13:40:08 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:42:37 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+13:42:53 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:184:7: error: conflicting types for 'compute_sad'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:42:7: note: previous declaration of 'compute_sad' was here
+ int32 compute_sad(uint8 *im1, int w1, int row, int col);
+       ^~~~~~~~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:208:4: error: 'reg_bank' undeclared (first use in this function)
+   *reg_bank = y + 32;
+    ^~~~~~~~
+../src/helloworld.c:208:4: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:209:19: error: 'group_regs' undeclared (first use in this function)
+   memcpy((void *) group_regs, face->pix+y*face->width, 32);
+                   ^~~~~~~~~~
+../src/helloworld.c:215:48: warning: passing argument 3 of 'compute_sad' makes pointer from integer without a cast [-Wint-conversion]
+    sad = compute_sad(group->pix, group->width, row, col);
+                                                ^~~
+../src/helloworld.c:184:7: note: expected 'uint8 * {aka unsigned char *}' but argument is of type 'int32 {aka long int}'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:215:10: error: too few arguments to function 'compute_sad'
+    sad = compute_sad(group->pix, group->width, row, col);
+          ^~~~~~~~~~~
+../src/helloworld.c:184:7: note: declared here
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+13:43:36 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:206:7: error: conflicting types for 'compute_sad'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:42:7: note: previous declaration of 'compute_sad' was here
+ int32 compute_sad(uint8 *im1, int w1, int row, int col);
+       ^~~~~~~~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:232:48: warning: passing argument 3 of 'compute_sad' makes pointer from integer without a cast [-Wint-conversion]
+    sad = compute_sad(group->pix, group->width, row, col);
+                                                ^~~
+../src/helloworld.c:206:7: note: expected 'uint8 * {aka unsigned char *}' but argument is of type 'int32 {aka long int}'
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+../src/helloworld.c:232:10: error: too few arguments to function 'compute_sad'
+    sad = compute_sad(group->pix, group->width, row, col);
+          ^~~~~~~~~~~
+../src/helloworld.c:206:7: note: declared here
+ int32 compute_sad(uint8 *image1, int w1, uint8 *image2, int w2, int h2,
+       ^~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+13:45:51 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'compute_sad_':
+../src/helloworld.c:47:14: error: storage class specified for parameter 'fatfs'
+ static FATFS fatfs;
+              ^~~~~
+../src/helloworld.c:50:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:106:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:120:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:140:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:209:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:226:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+ {
+ ^
+../src/helloworld.c:43:7: error: old-style parameter declarations in prototyped function definition
+ int32 compute_sad_(uint8 *image1, int w1, uint8 *image2, int w2, int h2, int row, int col)
+       ^~~~~~~~~~~~
+../src/helloworld.c:243:1: error: expected '{' at end of input
+ }
+ ^
+../src/helloworld.c:243:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/helloworld.o] Error 1
+13:46:19 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117352	   2624	33572640	33692616	2021bc8	final.elf
+'Finished building: final.elf.size'
+' '
+13:46:24 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:00:22 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'compute_sad_':
+../src/helloworld.c:223:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int32 {aka long int}' [-Wformat=]
+     printf("*****%d********",sad);
+                   ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117432	   2624	33572640	33692696	2021c18	final.elf
+'Finished building: final.elf.size'
+' '
+14:00:25 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:00:41 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+14:01:42 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117820	   2640	33572640	33693100	2021dac	final.elf
+'Finished building: final.elf.size'
+' '
+14:01:45 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:02:03 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117820	   2640	33572640	33693100	2021dac	final.elf
+'Finished building: final.elf.size'
+' '
+14:02:07 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:02:40 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'compute_sad_':
+../src/helloworld.c:226:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int32 {aka long int}' [-Wformat=]
+     printf("**********%d********\n",sad);
+                        ^
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117440	   2624	33572640	33692704	2021c20	final.elf
+'Finished building: final.elf.size'
+' '
+14:02:43 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:24:29 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117820	   2640	33572640	33693100	2021dac	final.elf
+'Finished building: final.elf.size'
+' '
+14:24:32 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:24:50 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 117736	   2640	33572640	33693016	2021d58	final.elf
+'Finished building: final.elf.size'
+' '
+14:24:53 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:44:38 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+14:44:41 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:46:31 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+14:46:35 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:46:46 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+14:46:49 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+14:47:28 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+14:47:31 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:34:10 **** Build of project final_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/compute_sad_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/compute_sad_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xilffs_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/compute_sad_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/compute_sad_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling compute_sad..."
+compute_sad_selftest.c: In function 'COMPUTE_SAD_Reg_SelfTest':
+compute_sad_selftest.c:52:60: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+    if ( COMPUTE_SAD_mReadReg (baseaddr, read_loop_index*4) != (read_loop_index+1)*READ_WRITE_MUL_FACTOR){
+                                                            ^~
+compute_sad_selftest.c:36:6: warning: unused variable 'Index' [-Wunused-variable]
+  int Index;
+      ^~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+xscugic_g.c:53:2: warning: missing initializer for field 'HandlerTable' of 'XScuGic_Config {aka struct <anonymous>}' [-Wmissing-field-initializers]
+  }
+  ^
+In file included from xscugic_g.c:41:0:
+xscugic.h:218:27: note: 'HandlerTable' declared here
+  XScuGic_VectorTableEntry HandlerTable[XSCUGIC_MAX_NUM_INTR_INPUTS];/**<
+                           ^~~~~~~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_2/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_3/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/ttcps_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/ttcps_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ttcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_4/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xilffs_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/xilffs_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling XilFFs Library"
+'Finished building libraries'
+15:35:43 **** Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/image.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/image.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/image.d" -MT"src/image.o" -o "src/image.o" "../src/image.c"
+'Finished building: ../src/image.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+15:50:55 **** Auto Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O3 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../final_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:113:7: warning: passing argument 14 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:15: warning: passing argument 15 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:23: warning: passing argument 16 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                       ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c:113:31: warning: passing argument 17 of 'match' from incompatible pointer type [-Wincompatible-pointer-types]
+       &cost1, &cost2, &cost3, &cost4);
+                               ^
+../src/helloworld.c:43:7: note: expected 'int *' but argument is of type 'int32 * {aka long int *}'
+ int32 match(CImage *group, CImage *face1, CImage *face2, CImage *face3, CImage *face4,
+       ^~~~~
+../src/helloworld.c: In function 'match':
+../src/helloworld.c:238:18: warning: variable 'sad' set but not used [-Wunused-but-set-variable]
+  int32 row, col, sad, min_sad1, min_sad2, min_sad3, min_sad4;
+                  ^~~
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: final.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../final_bsp/ps7_cortexa9_0/lib -o "final.elf"  ./src/helloworld.o ./src/image.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final.elf  |tee "final.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 118892	   2648	33572640	33694180	20221e4	final.elf
+'Finished building: final.elf.size'
+' '
+15:51:02 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:51:20 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+15:51:40 **** Incremental Build of configuration Debug for project final ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

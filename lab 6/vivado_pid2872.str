@@ -1,0 +1,2720 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 2872
+License: Customer
+
+Current time: 	6/27/18 1:37:21 PM CST
+Time zone: 	China Standard Time (Asia/Taipei)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 169 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x86;C:/Program Files (x86)/Intel/OpenCL SDK/2.0/bin/x64;C:/Users/shlab_23/AppData/Local/Programs/Python/Launcher/;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	shlab_23
+User home directory: C:/Users/shlab_23
+User working directory: C:/Users/shlab_23/Downloads/Lab3/Lab3
+User country: 	TW
+User language: 	zh
+User locale: 	zh_TW
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/shlab_23/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/shlab_23/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/shlab_23/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/shlab_23/Downloads/Lab3/Lab3/.Xil/Vivado-2872-shlab_32-PC
+
+GUI allocated memory:	168 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 543 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 40 MB (+39120kb) [00:00:09]
+// [Engine Memory]: 460 MB (+330566kb) [00:00:09]
+// Opening Vivado Project: C:\Users\shlab_23\Downloads\Lab3\Lab3\Lab3.xpr. Version: Vivado v2017.2 
+// bs:g (cg:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 52 MB (+10322kb) [00:00:12]
+// [Engine Memory]: 543 MB (+63395kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 545 MB. GUI used memory: 35 MB. Current time: 6/27/18 1:37:23 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 636 MB (+68623kb) [00:00:19]
+// [GUI Memory]: 59 MB (+5316kb) [00:00:21]
+// Tcl Message: open_project C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_23/Downloads/Lab3/Lab3/ip_repo/compute_sad_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:12 . Memory (MB): peak = 884.832 ; gain = 164.926 
+// Project name: Lab3; location: C:/Users/shlab_23/Downloads/Lab3/Lab3; part: xc7z020clg484-1
+// [GUI Memory]: 65 MB (+3275kb) [00:00:22]
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 69 MB (+573kb) [00:00:28]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v)]", 3); // B:i (D:JPanel, cg:JFrame)
+// PAPropertyPanels.initPanels (design_1_compute_sad_0_1.xci) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), compute_sad_0 : design_1_compute_sad_0_1 (design_1_compute_sad_0_1.xci)]", 4, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd), design_1 (design_1.v), compute_sad_0 : design_1_compute_sad_0_1 (design_1_compute_sad_0_1.xci)]", 4, false, false, false, false, true, false); // B:i (D:JPanel, cg:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER, "Edit in IP Packager"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EDIT_IN_IP_PACKAGER
+// k:p (cg:JFrame): Edit in IP Packager: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, k:p)
+// bs:g (cg:JFrame):  Edit in IP Packager : addNotify
+selectButton("PAResourceEtoH.EditIPProjectNameChooser_PROJECT_FOLDER_ALREADY_EXISTS_OK_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, H:JDialog)
+// TclEventType: LOAD_FEATURE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name compute_sad_v1_0_v1_0_project -directory C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.tmp/compute_sad_v1_0_v1_0_project c:/Users/shlab_23/Downloads/Lab3/Lab3/ip_repo/compute_sad_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 85 MB (+12457kb) [00:00:39]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_23/Downloads/Lab3/Lab3/ip_repo/compute_sad_1.0'. 
+// Tcl Message: INFO: [IP_Flow 19-795] Syncing license key meta-data INFO: [IP_Flow 19-793] Syncing display name meta-data INFO: [IP_Flow 19-798] Syncing taxonomy meta-data 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// [Engine Memory]: 695 MB (+28464kb) [00:00:40]
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 893.695 ; gain = 0.000 
+// [GUI Memory]: 92 MB (+2989kb) [00:00:42]
+// 'i' command handler elapsed time: 8 seconds
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Edit in IP Packager"); // bs:g (cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 721 MB. GUI used memory: 60 MB. Current time: 6/27/18 1:37:53 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 90 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, compute_sad_v1_0 (compute_sad_v1_0.v)]", 1); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, compute_sad_v1_0 (compute_sad_v1_0.v), compute_sad_v1_0_S00_AXI_inst : compute_sad_v1_0_S00_AXI (compute_sad_v1_0_S00_AXI.v)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, compute_sad_v1_0 (compute_sad_v1_0.v), compute_sad_v1_0_S00_AXI_inst : compute_sad_v1_0_S00_AXI (compute_sad_v1_0_S00_AXI.v)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// [Engine Memory]: 737 MB (+7616kb) [00:02:17]
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 576, 202); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 98 MB (+1527kb) [00:02:21]
+// [GUI Memory]: 103 MB (+574kb) [00:02:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 752 MB. GUI used memory: 62 MB. Current time: 6/27/18 1:42:18 PM CST
+// Elapsed time: 258 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 442, 248, false, false, false, true, false); // bI:J (JPanel:JComponent, cg:JFrame) - Popup Trigger
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 288, 208); // bI:J (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 109 MB (+413kb) [00:08:56]
+// [GUI Memory]: 115 MB (+496kb) [00:19:16]
+// Elapsed time: 1145 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 90, 391); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 90, 391, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 227, 393); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 227, 393, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 350, 86); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 350, 86, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 82, 286); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 81, 300); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 32 seconds
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 109, 326); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 114, 345); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 169, 352); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 134, 329); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 134, 329, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 34 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 446, 399); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 131, 349); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 131, 349, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 574, 396); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 455, 367); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 346, 279); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 124, 251); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 124, 251, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 124, 318); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 383, 280); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 383, 280, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 233, 250); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 194 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 90, 177); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 174, 269); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 176, 254); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 252, 376); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 252, 376, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 158, 324); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 218, 472); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 280, 464); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 468); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 347, 466); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 464); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 405, 468); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 469, 460); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 759, 465); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 30 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+selectButton("PAResourceItoN.NewLaunchHardwareDialog_EXPORTED_FILE_FOR_THIS_MODULE_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, H:JDialog)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: current_project Lab3 
+// Tcl Message: write_hwdef -force  -file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk/design_1_wrapper.hdf 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk -hwspec C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk -hwspec C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// Elapsed time: 60 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:p (cg:JFrame): Export Hardware: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:p)
+dismissDialog("Export Hardware"); // X:p (cg:JFrame)
+// Tcl Message: file mkdir C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk 
+// Tcl Message: write_hwdef -force  -file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk/design_1_wrapper.hdf 
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z:JMenu (JPopupMenu:JComponent, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ac:JMenuItem (JPopupMenu:JComponent, cg:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U:JideMenu (CommandMenuBar:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:p (cg:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:p)
+dismissDialog("Launch SDK"); // aa:p (cg:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk -hwspec C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk/design_1_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk -hwspec C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.sdk/design_1_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 755 MB. GUI used memory: 65 MB. Current time: 6/27/18 2:12:18 PM CST
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 12000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 13000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 14000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 15000 ms.
+// [GUI Memory]: 120 MB (+34kb) [00:47:05]
+// Elapsed time: 1039 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 456, 198); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 217, 230); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 217, 230, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 484, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 484, 227, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 251, 236); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 269, 235); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 589, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 589, 301, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 89, 179); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 141, 135); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 149, 135); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 146, 133); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 511, 140); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 363, 157); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 371, 157); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 31, 109); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 128, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 157, 273); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 157, 273, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 359, 322); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 369, 325); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 599, 326); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 599, 326, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 614, 326); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 614, 326, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 65 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 41, 107); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 113, 224); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 151, 403); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 108, 230); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 291 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 110, 79); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 94, 154); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 182, 182); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 196, 155); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 195, 156); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 72, 151); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 306, 128); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 42, 156); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 47, 156); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 73, 175); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 191, 156); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 186, 156); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 247, 150); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 98, 181); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 98, 181, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 144, 250); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 141, 204); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 142, 221); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 142, 249); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 140, 270); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 155, 271); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 145, 271); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 145, 299); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 141, 324); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 140, 350); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 169, 351); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 149, 350); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 143, 348); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 144, 372); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 140, 255); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 156, 255); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 142, 255); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 142, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 145, 299); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 146, 322); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 147, 351); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 142, 378); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 144, 184); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 144, 228); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 143, 250); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 145, 273); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 0, 181); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 159, 208); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 73, 201); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 495, 291); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 160, 348); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 113, 136); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 113, 136, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 156, 210); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 159, 207); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 163, 229); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 162, 253); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 277); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 175); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 162, 207); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 164, 228); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 236, 232); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 157, 254); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 84); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 158, 112); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 156, 130); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 177, 130); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 160, 131); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 160, 131, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 165, 160); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 162, 206); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 223); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 159, 252); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 274); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 163, 177); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 204); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 84); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 156, 106); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 165, 108); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 162, 108); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 158, 153); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 162, 183); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 158, 201); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 161, 229); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 162, 205); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 160, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 165, 252); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 160, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 239, 281); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 159, 323); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 162, 349); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 159, 373); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 159, 396); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 642, 186); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 642, 186, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 151, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 759 MB. GUI used memory: 60 MB. Current time: 6/27/18 2:42:18 PM CST
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 326, 272); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 310, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 323, 274); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 323, 274, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 332, 302); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 332, 302, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 333, 320); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 333, 320, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 200); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 200, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 333, 253); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 333, 253, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 341, 136); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 341, 136, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 160); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 160, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 178, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 235); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 235, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 341, 251, false, true, false, false, false); // bI:J (JPanel:JComponent, cg:JFrame) - Control Key
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 341, 251, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 275, false, true, false, false, false); // bI:J (JPanel:JComponent, cg:JFrame) - Control Key
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 275, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 344, 296); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 344, 296, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 138); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 138, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 154); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 154, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 338, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 338, 178, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 202); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 202, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 344, 248); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 344, 248, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 340, 279); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 340, 279, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 340, 303); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 340, 303, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 327); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 327, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 281); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 281, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 353, 162); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 353, 162, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 353, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 353, 178, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 232); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 232, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 252); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 252, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 276, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 295); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 295, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 207); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 207, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 230); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 230, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 335, 251); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 335, 251, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 335, 271); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 335, 271, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 340); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 340, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 358); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 358, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 376); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 337, 376, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 395); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 342, 395, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 336, 326); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 335, 326, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 338, 211); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 338, 211, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 389, 133); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 389, 153); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 387, 180); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 29, 180); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 182, 137); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 64, 181); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 24, 159); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 391, 254); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 386, 302); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 389, 325); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 388, 351); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 389, 373); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 385, 277); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 389, 298); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 390, 323); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 388, 345); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 386, 189); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 388, 206); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 388, 206, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 387, 230); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 390, 250); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 385, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 386, 319); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 389, 342); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 385, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 386, 277); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 386, 299); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 393, 322); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 388, 323); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 389, 346); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 385, 185); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 387, 211); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 387, 231); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 390, 253); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 386, 299); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 384, 323); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 387, 348); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 390, 373); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 90, 108); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 408, 226); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 388, 228); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 409, 251); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 412, 204); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 405, 252); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 30 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 408, 188); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 409, 303); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 386, 231); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 385, 246); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 388, 377); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 391, 205); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 53 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 447, 348); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 447, 348, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 521, 348); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 599, 353); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 599, 353, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 370, 176); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 91, 161); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 132, 225); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 132, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 132, 227, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 183, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 217, 154); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 258, 209); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 222, 228); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 378, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 131, 207); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 131, 207, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 252, 249); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 251, 249, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 168, 198); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 73, 151); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 109, 199); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 187, 274); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 150, 270); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 82, 279); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 107, 253); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 110, 254); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 185, 227); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 69, 226); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 110, 305); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 128, 280); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 121, 249); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 91, 178); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 151, 177); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 241 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 136, 260); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 33 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 189, 13); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+// Elapsed time: 29 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager]", 0); // u:M (JViewport:JComponent, cg:JFrame)
+// bs:g (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bs:g (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// [Engine Memory]: 792 MB (+19589kb) [01:19:19]
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 792 MB. GUI used memory: 66 MB. Current time: 6/27/18 2:56:29 PM CST
+// Tcl Message: set_property core_revision 35 [ipx::current_core] 
+// bs:g (cg:JFrame):  Package IP : addNotify
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cg:JFrame)
+// Tcl Message: current_project Lab3 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// bs:g (cg:JFrame):  Refresh IP Catalog : addNotify
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_23/Downloads/Lab3/Lab3/ip_repo/compute_sad_1.0'. 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+dismissDialog("Refresh IP Catalog"); // bs:g (cg:JFrame)
+// Tcl Message: current_project Lab3 
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:compute_sad:1.0 [get_ips  design_1_compute_sad_0_1] -log ip_upgrade.log 
+// bs:g (cg:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_50M Adding cell -- xilinx.com:user:compute_sad:1.0 - compute_sad_0 Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc Successfully read diagram <design_1> from BD file <C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd> 
+// HMemoryUtils.trashcanNow. Engine heap size: 824 MB. GUI used memory: 68 MB. Current time: 6/27/18 2:56:44 PM CST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: Upgrading 'C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// [Engine Memory]: 861 MB (+30374kb) [01:19:36]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated design_1_compute_sad_0_1 to use current project options 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_23/Downloads/Lab3/Lab3/ip_upgrade.log'. 
+// Tcl Message: upgrade_ip: Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1022.301 ; gain = 59.516 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_compute_sad_0_1] -no_script -sync -force -quiet 
+// au:p (cg:JFrame): Generate Output Products: addNotify
+// Elapsed time: 12 seconds
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: generate_target all [get_files  C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd>  
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Verilog Output written to : C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1.v Verilog Output written to : C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block compute_sad_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_compute_sad_0_1] } 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1410.528 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 design_1_compute_sad_0_1_synth_1 
+// [Engine Memory]: 913 MB (+9356kb) [01:19:47]
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 27 14:57:02 2018] Launched design_1_compute_sad_0_1_synth_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/design_1_compute_sad_0_1_synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 1055.652 ; gain = 6.730 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bs:g (cg:JFrame)
+// TclEventType: RUN_RESET
+// bs:g (cg:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 27 14:57:18 2018] Launched design_1_compute_sad_0_1_synth_1, synth_1... Run output will be captured here: design_1_compute_sad_0_1_synth_1: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/design_1_compute_sad_0_1_synth_1/runme.log synth_1: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/synth_1/runme.log [Wed Jun 27 14:57:18 2018] Launched impl_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs:g (cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 949 MB. GUI used memory: 72 MB. Current time: 6/27/18 3:00:53 PM CST
+// Elapsed time: 251 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "compute_sad_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 127 MB (+141kb) [01:25:21]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 134 MB (+746kb) [01:27:03]
+// [Engine Memory]: 963 MB (+4693kb) [01:28:49]
+// [GUI Memory]: 144 MB (+3828kb) [01:28:59]
+// HMemoryUtils.trashcanNow. Engine heap size: 991 MB. GUI used memory: 81 MB. Current time: 6/27/18 3:06:33 PM CST
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 568 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21); // u:M (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bs:g (cg:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,022 MB. GUI used memory: 84 MB. Current time: 6/27/18 3:11:03 PM CST
+// [Engine Memory]: 1,022 MB (+11358kb) [01:33:55]
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2017.2   **** Build date : Jun 15 2017-18:53:26     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248471586 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 1,169 MB (+100911kb) [01:33:59]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bs:g (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 23, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7z020_1"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// Elapsed time: 125 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 135, 155); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 135, 155, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 184, 246); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 177, 248); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 138, 247); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 136, 249, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 170, 253); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation]", 5); // u:M (JViewport:JComponent, cg:JFrame)
+// bs:g (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bs:g (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 36 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cg:JFrame)
+// Tcl Message: current_project Lab3 
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// bs:g (cg:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_23/Downloads/Lab3/Lab3/ip_repo/compute_sad_1.0'. 
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+dismissDialog("Refresh IP Catalog"); // bs:g (cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "compute_sad_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 38, 257); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 37, 324); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 233, 110); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 233, 110, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 242, 114); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 224, 110); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 311, 112); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 321, 113); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 339, 118); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,198 MB. GUI used memory: 94 MB. Current time: 6/27/18 3:14:33 PM CST
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u:M (JViewport:JComponent, cg:JFrame)
+// bs:g (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bs:g (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Compatibility", 1); // an:k (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 37 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cg:JFrame)
+// Tcl Message: current_project Lab3 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// bs:g (cg:JFrame):  Refresh IP Catalog : addNotify
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_23/Downloads/Lab3/Lab3/ip_repo/compute_sad_1.0'. 
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+dismissDialog("Refresh IP Catalog"); // bs:g (cg:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// [GUI Memory]: 151 MB (+23kb) [01:37:41]
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: current_project Lab3 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// bs:g (cg:JFrame):  Upgrade IP : addNotify
+// TclEventType: RUN_RESET
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:compute_sad:1.0 [get_ips  design_1_compute_sad_0_1] -log ip_upgrade.log 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: Upgrading 'C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated design_1_compute_sad_0_1 to use current project options 
+// Tcl Message: Wrote  : <C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_23/Downloads/Lab3/Lab3/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_compute_sad_0_1] -no_script -sync -force -quiet 
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// [GUI Memory]: 162 MB (+3712kb) [01:37:45]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: generate_target all [get_files  C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd>  Verilog Output written to : C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1.v Verilog Output written to : C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block compute_sad_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_compute_sad_0_1] } 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1435.269 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 design_1_compute_sad_0_1_synth_1 
+// Tcl Message: [Wed Jun 27 15:14:59 2018] Launched design_1_compute_sad_0_1_synth_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/design_1_compute_sad_0_1_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 98 MB. Current time: 6/27/18 3:15:03 PM CST
+// [Engine Memory]: 1,237 MB (+8971kb) [01:37:56]
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 27 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 27 15:15:25 2018] Launched design_1_compute_sad_0_1_synth_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/design_1_compute_sad_0_1_synth_1/runme.log [Wed Jun 27 15:15:25 2018] Launched synth_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 341 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN, "Open Synthesized Design"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_NETLIST_DESIGN
+// bs:g (cg:JFrame):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg484-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,352 MB. GUI used memory: 89 MB. Current time: 6/27/18 3:21:23 PM CST
+// [Engine Memory]: 1,357 MB (+61210kb) [01:44:15]
+// TclEventType: READ_XDC_FILE_START
+// [Engine Memory]: 1,492 MB (+70443kb) [01:44:20]
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,498 MB. GUI used memory: 89 MB. Current time: 6/27/18 3:21:32 PM CST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2017.2/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.7s
+// [Engine Memory]: 1,592 MB (+26798kb) [01:44:24]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1s
+// Schematic: addNotify
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Device 21-403] Loading part xc7z020clg484-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Finished Parsing XDC File [C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/constrs_1/new/Save.xdc] 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 1723.711 ; gain = 355.770 
+// 'dH' command handler elapsed time: 28 seconds
+// M:a (cg:JFrame): Critical Messages: addNotify
+// Elapsed time: 28 seconds
+dismissDialog("Open Synthesized Design"); // bs:g (cg:JFrame)
+// Elapsed time: 105 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DEBUG_WIZARD
+// N:g (cg:JFrame): Set Up Debug: addNotify
+// bs:g (N:g):  Filtering Net and Tracing Clock Domain : addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, N:g)
+dismissDialog("Filtering Net and Tracing Clock Domain"); // bs:g (N:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, N:g)
+selectComboBox(PAResourceAtoD.DebugWizard_SAMPLE_OF_DATA_DEPTH, "4096", 2); // e:JComboBox (JPanel:JComponent, N:g)
+selectCheckBox(PAResourceAtoD.DebugWizard_CAPTURE_CONTROL, "Capture control", true); // g:JCheckBox (d:JPanel, N:g): TRUE
+selectCheckBox(PAResourceAtoD.DebugWizard_ADVANCED_TRIGGER, "Advanced trigger", true); // g:JCheckBox (d:JPanel, N:g): TRUE
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, N:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, N:g)
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: DEBUG_CORE_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_core u_ila_0 ila 
+// bs:g (N:g):  Set Up Debug : addNotify
+// Tcl Message: set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGIN_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: startgroup  
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ] 
+// TclEventType: DEBUG_CORE_CONFIG_CHANGE
+// Tcl Message: endgroup 
+// Tcl Message: set_property port_width 1 [get_debug_ports u_ila_0/clk] 
+// Tcl Message: connect_debug_port u_ila_0/clk [get_nets [list design_1_i/processing_system7_0/inst/FCLK_CLK0 ]] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 5 [get_debug_ports u_ila_0/probe0] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe0 [get_nets [list {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P_next[0]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P_next[1]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P_next[2]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P_next[3]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P_next[4]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 5 [get_debug_ports u_ila_0/probe1] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// Tcl Message: connect_debug_port u_ila_0/probe1 [get_nets [list {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[0]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[1]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[2]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[3]} {design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[4]} ]] 
+// TclEventType: NETLIST_UPDATE
+// TclEventType: DEBUG_PORT_ADD
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: create_debug_port u_ila_0 probe 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property port_width 32 [get_debug_ports u_ila_0/probe2] 
+// TclEventType: NETLIST_UPDATE
+// Tcl Message: set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2] 
+// TclEventType: DEBUG_PORT_CONFIG_CHANGE
+// TclEventType: NETLIST_UPDATE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,596 MB. GUI used memory: 119 MB. Current time: 6/27/18 3:23:40 PM CST
+dismissDialog("Set Up Debug"); // bs:g (N:g)
+dismissDialog("Set Up Debug"); // N:g (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Schematic]", 27, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 32, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ak:q (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ak:q)
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+dismissDialog("Save Project"); // ak:q (cg:JFrame)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Constraints"); // bs:g (cg:JFrame)
+dismissDialog("Resetting Runs"); // bs:g (cg:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// bs:g (cg:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: Writing placer database... Writing XDEF routing. Writing XDEF routing logical nets. Writing XDEF routing special nets. 
+// Tcl Message: Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.129 . Memory (MB): peak = 1729.016 ; gain = 0.000 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 27 15:23:53 2018] Launched impl_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bs:g (cg:JFrame)
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 171 MB (+384kb) [01:47:29]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 120 MB. Current time: 6/27/18 3:29:09 PM CST
+// Elapsed time: 507 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "compute_sad_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 29, 275); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 774, 296); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 773, 442); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 91, 327); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 746, 370); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 114, 371); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 61, 376); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 172, 210); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 174, 271); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 168, 344); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 170, 347); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 39, 59); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 190, 64); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 168, 58); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 198, 61); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 171, 63); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 171, 63, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 204, 63); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 54 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 33); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 33); // u:M (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 35, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7z020_1"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// Tcl Message: set_property PROBES.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// 'I' command handler elapsed time: 6 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+// Elapsed time: 19 seconds
+selectButton(PAResourceEtoH.HardwareIlaWaveformView_RUN_TRIGGER_IMMEDIATE_FOR_THIS_ILA_CORE, "Waveform Viewer_trigger_immediate"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_TRIGGER_IMMEDIATE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}] -trigger_now 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Jun-27 15:35:41 
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Jun-27 15:35:41 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 135 MB. Current time: 6/27/18 3:35:42 PM CST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_0_index[15:0]]", 2, true); // a:i (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_0_index[15:0]]", 2, true, false, false, false, true, false); // a:i (JViewport:JComponent, cg:JFrame) - Popup Trigger - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 168 MB. Current time: 6/27/18 3:35:50 PM CST
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, u_ila_0_index[15:0]]", 2, true); // a:i (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.WaveformView_REMOVE_SELECTED, "Waveform Viewer_Remove1"); // B:JideButton (f:CommandBar, cg:JFrame)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/index[31:16]]", 2, true); // a:i (JViewport:JComponent, cg:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:35:53 PM CST
+// [GUI Memory]: 181 MB (+1355kb) [01:58:50]
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cg:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 34, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+selectMenuItem((HResource) null, "xc7z020_1"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// Tcl Message: set_property PROBES.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 138 MB. Current time: 6/27/18 3:36:09 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 136 MB. Current time: 6/27/18 3:36:09 PM CST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// 'I' command handler elapsed time: 5 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+closeView(PAResourceOtoP.PAViews_DASHBOARD, "hw_ila_1"); // i:aJ
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210248471586 
+// n:a (cg:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, n:a)
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+dismissDialog("Close Hardware Target"); // n:a (cg:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Program Device]", 34, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// [GUI Memory]: 190 MB (+481kb) [01:59:08]
+selectMenuItem((HResource) null, "xc7z020_1"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// Tcl Message: set_property PROBES.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h:k (JPanel:JComponent, cg:JFrame)
+selectMenuItem((HResource) null, "xc7z020_1"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_REFRESH_DEVICE, "Refresh device"); // h:k (JPanel:JComponent, cg:JFrame)
+selectMenuItem((HResource) null, "xc7z020_1"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REFRESH_DEVICE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-2302] Device xc7z020 (JTAG device index = 1) is programmed with a design that has 1 ILA core(s). 
+// TclEventType: HW_DEVICE_CHANGE
+// bs:g (cg:JFrame):  Refresh Device : addNotify
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: DEBUG_PROBE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+dismissDialog("Refresh Device"); // bs:g (cg:JFrame)
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B:JideButton (f:CommandBar, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Jun-27 15:36:39 
+// [GUI Memory]: 202 MB (+1869kb) [01:59:30]
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 136 MB. Current time: 6/27/18 3:36:40 PM CST
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Jun-27 15:36:39 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+selectButton(PAResourceItoN.IlaProbeTablePanel_ADD_PROBES, (String) null); // B:JideButton (JPanel:JComponent, cg:JFrame)
+// Add Probes: show
+selectTree(PAResourceOtoP.ProbesView_PROBES_TREE, "[root, design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[4:0]]", 1, false); // N:i (JViewport:JComponent, ResizableWindow:JWindow)
+// Add Probes: hide
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[4:0] ; ==   ; [H]   ; XX ; probe1[4:0]", 0, "XX", 3); // B:r (JViewport:JComponent, cg:JFrame)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "XX", 0, "Value", 3); // B:r (JViewport:JComponent, cg:JFrame)
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[4:0] ; ==   ; [H]   ; XX ; probe1[4:0]", 0, "[H]  ", 2); // B:r (JViewport:JComponent, cg:JFrame)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "[H]  ", 0, "Radix", 2); // B:r (JViewport:JComponent, cg:JFrame)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq5'u0 [get_hw_probes design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+selectTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[4:0] ; ==   ; [U]   ; 0 ; probe1[4:0]", 0, "0", 3); // B:r (JViewport:JComponent, cg:JFrame)
+editTable(PAResourceTtoZ.TriggerSetupPanel_TABLE, "0", 0, "Value", 3); // B:r (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceTtoZ.TriggerStatusPanel_RUN_TRIGGER_FOR_THIS_ILA_CORE, "ILA_run_trigger"); // B:JideButton (f:CommandBar, cg:JFrame)
+// TclEventType: DEBUG_PROBE_CHANGE
+// Tcl Message: set_property TRIGGER_COMPARE_VALUE eq5'u1 [get_hw_probes design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Run Command: PAResourceCommand.PACommandNames_RUN_TRIGGER
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}] 
+// Tcl Message: INFO: [Labtools 27-1964] The ILA core 'hw_ila_1' trigger was armed at 2018-Jun-27 15:36:51 
+// TclEventType: HW_ILA_CHANGE
+// Tcl Message: wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}] 
+// TclEventType: HW_ILA_CHANGE
+// TclEventType: WAVEFORM_GLASSPANE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,620 MB. GUI used memory: 148 MB. Current time: 6/27/18 3:37:01 PM CST
+// Tcl Message: display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]] 
+// Tcl Message: INFO: [Labtools 27-1966] The ILA core 'hw_ila_1' triggered at 2018-Jun-27 15:37:00 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_GLASSPANE
+// Tcl Message: INFO: [Labtools 27-3304] ILA Waveform data saved to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.hw/backup/hw_ila_data_1.ila. Use Tcl command 'import_hw_ila_data' or Vivado File->Import->Import ILA Data menu item to import the previously saved data. 
+// Elapsed time: 14 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P[4:0]]", 1, true); // a:i (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, design_1_i/compute_sad_0/inst/compute_sad_v1_0_S00_AXI_inst/P_next[4:0]]", 0, true); // a:i (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 134 MB. Current time: 6/27/18 3:37:08 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 134 MB. Current time: 6/27/18 3:37:08 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:37:09 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:37:10 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:37:10 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:37:11 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:37:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:37:12 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:37:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,624 MB. GUI used memory: 137 MB. Current time: 6/27/18 3:37:13 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 10 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 143, 330); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:03 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:04 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:38:06 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:08 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:16 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:16 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:19 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:22 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:24 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:26 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:27 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:28 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:29 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:30 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:31 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:38:57 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:38:58 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:38:59 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:39:00 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:39:01 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:39:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:39:02 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:39:03 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 133 MB. Current time: 6/27/18 3:39:04 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:39:07 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:39:09 PM CST
+// Elapsed time: 115 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 110, 316); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 297, 139); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 297, 139, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 77, 174); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 77, 174, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 344, 132); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 343, 132, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 132 MB. Current time: 6/27/18 3:39:36 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 34 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 136, 245); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 135, 245, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 296, 276); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 296, 276, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 245, 301); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 245, 301, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 251, 235); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 251, 235, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 324, 200); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 324, 200, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 305, 270); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 305, 270, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 39, 372); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 31, 323); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 31, 205); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 31, 179); // bI:J (JPanel:JComponent, cg:JFrame)
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'c'); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 68, 201); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 68, 201, false, false, false, false, true); // bI:J (JPanel:JComponent, cg:JFrame) - Double Click
+typeControlKey((HResource) null, "compute_sad_v1_0_S00_AXI.v", 'v'); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 170 MB. Current time: 6/27/18 3:41:42 PM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug]", 6); // u:M (JViewport:JComponent, cg:JFrame)
+// bs:g (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bs:g (cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an:k (JViewport:JComponent, cg:JFrame)
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an:k (JViewport:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "compute_sad_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u:M (JViewport:JComponent, cg:JFrame)
+// bs:g (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bs:g (cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 38 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.PlanAheadTab_REFRESH_IP_CATALOG, "Refresh IP Catalog"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,628 MB. GUI used memory: 139 MB. Current time: 6/27/18 3:42:04 PM CST
+// Tcl Message: current_project Lab3 
+// TclEventType: CREATE_IP_CATALOG
+// bs:g (cg:JFrame):  Refresh IP Catalog : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: RSB_BITABEN_IPREPODATA_REFRESH
+// TclEventType: CREATE_IP_CATALOG
+// Tcl Message: update_ip_catalog -rebuild -scan_changes 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_23/Downloads/Lab3/Lab3/ip_repo/compute_sad_1.0'. 
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status 
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+dismissDialog("Refresh IP Catalog"); // bs:g (cg:JFrame)
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// Tcl Message: current_project Lab3 
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RUN_MODIFY
+// bs:g (cg:JFrame):  Upgrade IP : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// Tcl Message: Upgrading 'C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd' 
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: upgrade_ip -vlnv xilinx.com:user:compute_sad:1.0 [get_ips  design_1_compute_sad_0_1] -log ip_upgrade.log 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-3420] Updated design_1_compute_sad_0_1 to use current project options 
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : <C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/shlab_23/Downloads/Lab3/Lab3/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips design_1_compute_sad_0_1] -no_script -sync -force -quiet 
+// au:p (cg:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, au:p)
+// bs:g (cg:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Wrote  : <C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd>  Verilog Output written to : C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1.v Verilog Output written to : C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block compute_sad_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_50M . 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh Generated Block Design Tcl file C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl Generated Hardware Definition File C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/hdl/design_1.hwdef 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_compute_sad_0_1] } 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_auto_pc_0, cache-ID = e47788bd6dc9e881; cache size = 1462.026 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.srcs/sources_1/bd/design_1/design_1.bd] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 design_1_compute_sad_0_1_synth_1 
+// Tcl Message: [Wed Jun 27 15:42:15 2018] Launched design_1_compute_sad_0_1_synth_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/design_1_compute_sad_0_1_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design]", 15); // u:M (JViewport:JComponent, cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bs:g (cg:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_FAILED
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 27 15:42:33 2018] Launched design_1_compute_sad_0_1_synth_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/design_1_compute_sad_0_1_synth_1/runme.log [Wed Jun 27 15:42:33 2018] Launched synth_1... Run output will be captured here: C:/Users/shlab_23/Downloads/Lab3/Lab3/Lab3.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bs:g (cg:JFrame)
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "compute_sad_v1_0_S00_AXI.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Open Synthesized Design, Set Up Debug]", 18, false, false, false, false, true, false); // u:M (JViewport:JComponent, cg:JFrame) - Popup Trigger
+// [GUI Memory]: 212 MB (+175kb) [02:08:05]
+// Elapsed time: 113 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 655, 375); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 657, 298); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 655, 377); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 687, 234); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 661, 300); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 661, 372); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("compute_sad_v1_0_S00_AXI.v", 661, 444); // bI:J (JPanel:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h:k (JPanel:JComponent, cg:JFrame)
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_OK_TO_CANCEL_YOUR_RUNNING_OUT_OF_CONTEXT_Cancel Process", "Cancel Process"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run design_1_compute_sad_0_1_synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bs:g (cg:JFrame)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Package IP]", 5, false); // u:M (JViewport:JComponent, cg:JFrame)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator]", 1); // u:M (JViewport:JComponent, cg:JFrame)
+// TclEventType: DG_GRAPH_GENERATED
+// bs:g (cg:JFrame):  Open Project Manager : addNotify
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+dismissDialog("Open Project Manager"); // bs:g (cg:JFrame)
+// [Engine Memory]: 1,672 MB (+656kb) [02:09:08]
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h:k (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,672 MB. GUI used memory: 135 MB. Current time: 6/27/18 3:46:19 PM CST
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: current_project compute_sad_v1_0_v1_0_project 
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Review and Package", 7); // an:k (JViewport:JComponent, cg:JFrame)
+selectButton(PAResourceQtoS.ReviewContentPanel_RE_PACKAGE_IP, "Re-Package IP"); // a:JButton (JPanel:JComponent, cg:JFrame)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: set_property core_revision 39 [ipx::current_core] 
+// Tcl Message: ipx::create_xgui_files [ipx::current_core] 
+// Tcl Message: ipx::update_checksums [ipx::current_core] 
+// Tcl Message: ipx::save_core [ipx::current_core] 
+selectButton("PAResourceQtoS.ReviewContentPanel_FINISHED_PACKAGING_SUCCESSFULLY_DO_No", "No"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)

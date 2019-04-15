@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# 
+# Start of session at: Fri Jun 22 12:47:20 2018
+# Process ID: 6344
+# Current directory: C:/Users/shlab_23/Downloads/final_student/final_exam/final_exam.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/shlab_23/Downloads/final_student/final_exam/final_exam.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/shlab_23/Downloads/final_student/final_exam/final_exam.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

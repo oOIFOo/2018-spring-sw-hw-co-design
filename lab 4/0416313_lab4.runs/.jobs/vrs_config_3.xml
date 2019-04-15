@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="lab4_axi_smc_0_synth_1" LaunchDir="C:/0416313_lab4/0416313_lab4.runs/lab4_axi_smc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="lab4_my_dma_0_6_synth_1" LaunchDir="C:/0416313_lab4/0416313_lab4.runs/lab4_my_dma_0_6_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="lab4_auto_pc_0_synth_1" LaunchDir="C:/0416313_lab4/0416313_lab4.runs/lab4_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

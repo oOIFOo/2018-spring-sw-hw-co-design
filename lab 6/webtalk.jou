@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Jun 27 21:51:26 2018
+# Process ID: 5320
+# Current directory: c:/Users/shlab_23/Downloads/Lab3/Lab3
+# Command line: wbtcv.exe -mode batch -source c:/users/shlab_23/downloads/lab3/lab3/lab3.tmp/compute_sad_v1_0_v1_0_project/compute_sad_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: c:/Users/shlab_23/Downloads/Lab3/Lab3/webtalk.log
+# Journal file: c:/Users/shlab_23/Downloads/Lab3/Lab3\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/shlab_23/downloads/lab3/lab3/lab3.tmp/compute_sad_v1_0_v1_0_project/compute_sad_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace

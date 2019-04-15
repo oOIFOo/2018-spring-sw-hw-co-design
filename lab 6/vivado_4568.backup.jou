@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Jun 27 21:59:25 2018
+# Process ID: 4568
+# Current directory: C:/Users/shlab_23/Downloads/0416313
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2700 C:\Users\shlab_23\Downloads\0416313\Lab3.xpr
+# Log file: C:/Users/shlab_23/Downloads/0416313/vivado.log
+# Journal file: C:/Users/shlab_23/Downloads/0416313\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/shlab_23/Downloads/0416313/Lab3.xpr
+update_compile_order -fileset sources_1
+ipx::edit_ip_in_project -upgrade true -name compute_sad_v1_0_v1_0_project -directory C:/Users/shlab_23/Downloads/0416313/Lab3.tmp/compute_sad_v1_0_v1_0_project c:/Users/shlab_23/Downloads/0416313/ip_repo/compute_sad_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project Lab3
+close_project

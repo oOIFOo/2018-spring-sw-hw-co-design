@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Jun 27 23:10:22 2018
+# Process ID: 9752
+# Current directory: C:/Users/shlab_23/Downloads/0416313
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1360 C:\Users\shlab_23\Downloads\0416313\Lab3.xpr
+# Log file: C:/Users/shlab_23/Downloads/0416313/vivado.log
+# Journal file: C:/Users/shlab_23/Downloads/0416313\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/shlab_23/Downloads/0416313/Lab3.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/shlab_23/Downloads/Lab3/Lab3' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/shlab_23/Downloads/ip_repo/compute_sad_1.0', nor could it be found using path 'C:/Users/shlab_23/Downloads/Lab3/ip_repo/compute_sad_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/shlab_23/Downloads/0416313/ip_repo/compute_sad_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/shlab_23/Downloads/ip_repo/compute_sad_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'design_1_auto_pc_0' generated file not found 'c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/stats.txt'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 855.520 ; gain = 113.930
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/shlab_23/Downloads/0416313/Lab3.sdk -hwspec C:/Users/shlab_23/Downloads/0416313/Lab3.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/shlab_23/Downloads/0416313/Lab3.sdk -hwspec C:/Users/shlab_23/Downloads/0416313/Lab3.sdk/design_1_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248471586
+set_property PROGRAM.FILE {C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7z020_1 and the probes file(s) C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+set_property PROBES.FILE {C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xc7z020_1 and the probes file(s) C:/Users/shlab_23/Downloads/0416313/Lab3.runs/impl_1/design_1_wrapper.ltx.
+The device design has 0 ILA core(s) and 0 VIO core(s). The probes file(s) have 1 ILA core(s) and 0 VIO core(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 28 00:00:36 2018...

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri May 11 15:26:39 2018
+# Process ID: 4304
+# Current directory: D:/0416313_lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5036 D:\0416313_lab4\0416313_lab4.xpr
+# Log file: D:/0416313_lab4/vivado.log
+# Journal file: D:/0416313_lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/0416313_lab4/0416313_lab4.xpr
+update_compile_order -fileset sources_1
+ipx::edit_ip_in_project -upgrade true -name my_dma_v1_0_v1_0_project -directory D:/0416313_lab4/0416313_lab4.tmp/my_dma_v1_0_v1_0_project d:/0416313_lab4/ip_repo/my_dma_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project 0416313_lab4
+file copy -force D:/0416313_lab4/0416313_lab4.runs/impl_1/lab4_wrapper.sysdef D:/0416313_lab4/0416313_lab4.sdk/lab4_wrapper.hdf
+
+launch_sdk -workspace D:/0416313_lab4/0416313_lab4.sdk -hwspec D:/0416313_lab4/0416313_lab4.sdk/lab4_wrapper.hdf
+current_project my_dma_v1_0_v1_0_project
+close_project

@@ -1,0 +1,695 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Jun 28 14:29:26 2018
+# Process ID: 7376
+# Current directory: C:/Users/shlab_23/Downloads/0416313/Lab3.runs/design_1_compute_sad_0_1_synth_1
+# Command line: vivado.exe -log design_1_compute_sad_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_compute_sad_0_1.tcl
+# Log file: C:/Users/shlab_23/Downloads/0416313/Lab3.runs/design_1_compute_sad_0_1_synth_1/design_1_compute_sad_0_1.vds
+# Journal file: C:/Users/shlab_23/Downloads/0416313/Lab3.runs/design_1_compute_sad_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_compute_sad_0_1.tcl -notrace
+Command: synth_design -top design_1_compute_sad_0_1 -part xc7z020clg484-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020-clg484'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4088 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 367.742 ; gain = 80.965
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_compute_sad_0_1' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ip/design_1_compute_sad_0_1/synth/design_1_compute_sad_0_1.v:57]
+INFO: [Synth 8-638] synthesizing module 'compute_sad_v1_0' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'compute_sad_v1_0_S00_AXI' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 4 - type: integer 
+	Parameter S_MAIN_WAIT bound to: 0 - type: integer 
+	Parameter S_MAIN_READ bound to: 1 - type: integer 
+	Parameter S_MAIN_START bound to: 2 - type: integer 
+	Parameter S_MAIN_ABS bound to: 3 - type: integer 
+	Parameter S_MAIN_ONE bound to: 4 - type: integer 
+	Parameter S_MAIN_TWO bound to: 5 - type: integer 
+	Parameter S_MAIN_THREE bound to: 6 - type: integer 
+	Parameter S_MAIN_FOUR bound to: 7 - type: integer 
+	Parameter S_MAIN_SEND bound to: 8 - type: integer 
+	Parameter S_MAIN_CLEAR bound to: 9 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:116]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:117]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:147]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:565]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:566]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:570]
+INFO: [Synth 8-5534] Detected attribute (* mark_debug = "true" *) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:573]
+INFO: [Synth 8-638] synthesizing module 'sram_dual_port' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:776]
+	Parameter RAM_WIDTH bound to: 256 - type: integer 
+	Parameter RAM_ADDR_BITS bound to: 8 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sram_dual_port' (1#1) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:776]
+WARNING: [Synth 8-689] width (32) of port connection 'addr_A' does not match port width (8) of module 'sram_dual_port' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:771]
+WARNING: [Synth 8-689] width (32) of port connection 'addr_B' does not match port width (8) of module 'sram_dual_port' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:771]
+WARNING: [Synth 8-350] instance 'face' of module 'sram_dual_port' requires 12 connections, but only 11 given [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:770]
+WARNING: [Synth 8-6014] Unused sequential element byte_index was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:151]
+WARNING: [Synth 8-6014] Unused sequential element j was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:725]
+WARNING: [Synth 8-6014] Unused sequential element i was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:725]
+INFO: [Synth 8-256] done synthesizing module 'compute_sad_v1_0_S00_AXI' (2#1) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-256] done synthesizing module 'compute_sad_v1_0' (3#1) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0.v:4]
+INFO: [Synth 8-256] done synthesizing module 'design_1_compute_sad_0_1' (4#1) [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ip/design_1_compute_sad_0_1/synth/design_1_compute_sad_0_1.v:57]
+WARNING: [Synth 8-3331] design compute_sad_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design compute_sad_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design compute_sad_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design compute_sad_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design compute_sad_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design compute_sad_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:52 ; elapsed = 00:00:52 . Memory (MB): peak = 648.563 ; gain = 361.785
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 648.563 ; gain = 361.785
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.716 . Memory (MB): peak = 978.348 ; gain = 28.996
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:01:13 ; elapsed = 00:01:23 . Memory (MB): peak = 978.348 ; gain = 691.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:13 ; elapsed = 00:01:23 . Memory (MB): peak = 978.348 ; gain = 691.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:23 . Memory (MB): peak = 978.348 ; gain = 691.570
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:738]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:730]
+INFO: [Common 17-14] Message 'Synth 8-5818' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5545] ROM "g_pixel_reg[0][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[1][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[2][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[3][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[4][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[5][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[6][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[7][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[8][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[9][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[10][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[11][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[12][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[13][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[14][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[15][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[16][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[17][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[18][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[19][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[20][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[21][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[22][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[23][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[24][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[25][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[26][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[27][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[28][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[29][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[30][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[31][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[0][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[1][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[2][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[3][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[4][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[5][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[6][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[7][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[8][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[9][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[10][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[11][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[12][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[13][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[14][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[15][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[16][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[17][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[18][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[19][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[20][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[21][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[22][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[23][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[24][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[25][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[26][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[27][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[28][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[29][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[30][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "f_pixel_reg[31][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "diff" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "P_next" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "P_next" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "P_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "P_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "index" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "count" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "diff_flag" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:673]
+WARNING: [Synth 8-6014] Unused sequential element row_reg was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:728]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:31 ; elapsed = 00:01:42 . Memory (MB): peak = 978.348 ; gain = 691.570
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------------+------------+----------+
+|      |RTL Partition                  |Replication |Instances |
++------+-------------------------------+------------+----------+
+|1     |compute_sad_v1_0_S00_AXI__GB0  |           1|     30669|
+|2     |compute_sad_v1_0_S00_AXI__GB1  |           1|      8044|
+|3     |compute_sad_v1_0_S00_AXI__GB2  |           1|     11200|
+|4     |compute_sad_v1_0_S00_AXI__GB3  |           1|     33615|
+|5     |compute_sad_v1_0_S00_AXI__GB4  |           1|     15595|
+|6     |compute_sad_v1_0_S00_AXI__GB5  |           1|     35689|
+|7     |compute_sad_v1_0_S00_AXI__GB6  |           1|     11352|
+|8     |compute_sad_v1_0_S00_AXI__GB7  |           1|     38141|
+|9     |compute_sad_v1_0_S00_AXI__GB8  |           1|     27230|
+|10    |compute_sad_v1_0_S00_AXI__GB9  |           1|      9144|
+|11    |compute_sad_v1_0_S00_AXI__GB10 |           1|     11617|
++------+-------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   4 Input     21 Bit       Adders := 1     
+	   4 Input     19 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 192   
+	   4 Input     17 Bit       Adders := 64    
+	   2 Input      5 Bit       Adders := 4     
+	   3 Input      5 Bit       Adders := 7     
++---Registers : 
+	              256 Bit    Registers := 2     
+	               32 Bit    Registers := 21    
+	               19 Bit    Registers := 4     
+	               17 Bit    Registers := 256   
+	                8 Bit    Registers := 2048  
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 5     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---RAMs : 
+	              64K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 56    
+	  19 Input     32 Bit        Muxes := 16    
+	   2 Input     19 Bit        Muxes := 10    
+	   7 Input     19 Bit        Muxes := 4     
+	   2 Input     17 Bit        Muxes := 704   
+	   2 Input      8 Bit        Muxes := 200   
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 636   
+	   7 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sram_dual_port 
+Detailed RTL Component Info : 
++---Registers : 
+	              256 Bit    Registers := 2     
++---RAMs : 
+	              64K Bit         RAMs := 1     
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 2     
+Module compute_sad_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   4 Input     21 Bit       Adders := 1     
+	   4 Input     19 Bit       Adders := 1     
+	   3 Input     17 Bit       Adders := 192   
+	   4 Input     17 Bit       Adders := 64    
+	   2 Input      5 Bit       Adders := 4     
+	   3 Input      5 Bit       Adders := 7     
++---Registers : 
+	               32 Bit    Registers := 21    
+	               19 Bit    Registers := 4     
+	               17 Bit    Registers := 256   
+	                8 Bit    Registers := 2048  
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 5     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 56    
+	  19 Input     32 Bit        Muxes := 16    
+	   2 Input     19 Bit        Muxes := 10    
+	   7 Input     19 Bit        Muxes := 4     
+	   2 Input     17 Bit        Muxes := 704   
+	   2 Input      8 Bit        Muxes := 200   
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 636   
+	   7 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 32    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4471] merging register 'row_reg[4:0]' into 'row_reg[4:0]' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:728]
+INFO: [Synth 8-4471] merging register 'row_reg[4:0]' into 'row_reg[4:0]' [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:728]
+WARNING: [Synth 8-6014] Unused sequential element row_reg was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:728]
+WARNING: [Synth 8-6014] Unused sequential element row_reg was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:728]
+WARNING: [Synth 8-6014] Unused sequential element row_reg was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:728]
+WARNING: [Synth 8-3331] design design_1_compute_sad_0_1 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design design_1_compute_sad_0_1 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design design_1_compute_sad_0_1 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design design_1_compute_sad_0_1 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design design_1_compute_sad_0_1 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design design_1_compute_sad_0_1 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-5545] ROM "P_next" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "P_next" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ipshared/8ecc/hdl/compute_sad_v1_0_S00_AXI.v:673]
+WARNING: [Synth 8-6014] Unused sequential element RAM_reg was removed. 
+INFO: [Synth 8-5545] ROM "g_pixel_reg[0][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[1][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[2][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[3][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[4][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[5][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[6][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[7][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[8][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[9][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[10][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[11][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[12][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[13][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[14][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[15][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[16][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[17][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[18][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[19][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[20][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[21][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[22][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[23][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[24][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[25][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[26][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[27][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[28][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "g_pixel_reg[29][0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3886] merging instance 'axi_bresp_reg[0]' (FDRE) to 'axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_bresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'axi_rresp_reg[0]' (FDRE) to 'axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\axi_rresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:25 ; elapsed = 00:02:50 . Memory (MB): peak = 978.348 ; gain = 691.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping  Report (see note below)
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|face        | RAM_reg    | 256 x 256(WRITE_FIRST) | W | R | 256 x 256(WRITE_FIRST) |   | R | Port A and B     | 1      | 7      | 
++------------+------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------------+------------+----------+
+|      |RTL Partition                  |Replication |Instances |
++------+-------------------------------+------------+----------+
+|1     |compute_sad_v1_0_S00_AXI__GB0  |           1|     17993|
+|2     |compute_sad_v1_0_S00_AXI__GB1  |           1|      4739|
+|3     |compute_sad_v1_0_S00_AXI__GB2  |           1|      6080|
+|4     |compute_sad_v1_0_S00_AXI__GB3  |           1|     15923|
+|5     |compute_sad_v1_0_S00_AXI__GB4  |           1|      6498|
+|6     |compute_sad_v1_0_S00_AXI__GB5  |           1|     22009|
+|7     |compute_sad_v1_0_S00_AXI__GB6  |           1|     11352|
+|8     |compute_sad_v1_0_S00_AXI__GB7  |           1|     23609|
+|9     |compute_sad_v1_0_S00_AXI__GB8  |           1|     23602|
+|10    |compute_sad_v1_0_S00_AXI__GB9  |           1|      9141|
+|11    |compute_sad_v1_0_S00_AXI__GB10 |           1|      6344|
++------+-------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:38 ; elapsed = 00:03:04 . Memory (MB): peak = 1083.953 ; gain = 797.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:42 ; elapsed = 00:03:08 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------------------+------------+----------+
+|      |RTL Partition                  |Replication |Instances |
++------+-------------------------------+------------+----------+
+|1     |compute_sad_v1_0_S00_AXI__GB0  |           1|     11074|
+|2     |compute_sad_v1_0_S00_AXI__GB1  |           1|      4735|
+|3     |compute_sad_v1_0_S00_AXI__GB2  |           1|      2240|
+|4     |compute_sad_v1_0_S00_AXI__GB3  |           1|      9009|
+|5     |compute_sad_v1_0_S00_AXI__GB4  |           1|      4194|
+|6     |compute_sad_v1_0_S00_AXI__GB5  |           1|     21938|
+|7     |compute_sad_v1_0_S00_AXI__GB6  |           1|      7192|
+|8     |compute_sad_v1_0_S00_AXI__GB7  |           1|     23609|
+|9     |compute_sad_v1_0_S00_AXI__GB8  |           1|     15829|
+|10    |compute_sad_v1_0_S00_AXI__GB9  |           1|      5813|
+|11    |compute_sad_v1_0_S00_AXI__GB10 |           1|      2504|
++------+-------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_6 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_6 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_7 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_7 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:51 ; elapsed = 00:03:25 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------------------+------------+----------+
+|      |RTL Partition                 |Replication |Instances |
++------+------------------------------+------------+----------+
+|1     |compute_sad_v1_0_S00_AXI__GB0 |           1|      5758|
+|2     |compute_sad_v1_0_S00_AXI__GB5 |           1|     11607|
+|3     |compute_sad_v1_0_S00_AXI__GB7 |           1|      9121|
+|4     |compute_sad_v1_0_S00_AXI__GB8 |           1|      8611|
++------+------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_0 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_1 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_2 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_3 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_4 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_5 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_6 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_6 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_7 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance inst/compute_sad_v1_0_S00_AXI_inst/face/RAM_reg_7 (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-5778] max_fanout handling on net \inst/compute_sad_v1_0_S00_AXI_inst/slv_reg8 [0] is sub-optimal because some of its loads are not in same hierarchy as its driver   
+INFO: [Synth 8-5778] max_fanout handling on net \inst/compute_sad_v1_0_S00_AXI_inst/slv_reg8 [1] is sub-optimal because some of its loads are not in same hierarchy as its driver   
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:58 ; elapsed = 00:03:32 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:58 ; elapsed = 00:03:33 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:03:01 ; elapsed = 00:03:35 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:03:01 ; elapsed = 00:03:35 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:05 ; elapsed = 00:03:39 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:03:05 ; elapsed = 00:03:39 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |  1311|
+|2     |LUT1     |    89|
+|3     |LUT2     |  2062|
+|4     |LUT3     |   870|
+|5     |LUT4     |  3977|
+|6     |LUT5     |  1033|
+|7     |LUT6     | 21018|
+|8     |MUXF7    |  2580|
+|9     |MUXF8    |   100|
+|10    |RAMB18E1 |     1|
+|11    |RAMB36E1 |     7|
+|12    |FDRE     | 21580|
+|13    |FDSE     |     3|
++------+---------+------+
+
+Report Instance Areas: 
++------+----------------------------------+-------------------------+------+
+|      |Instance                          |Module                   |Cells |
++------+----------------------------------+-------------------------+------+
+|1     |top                               |                         | 54631|
+|2     |  inst                            |compute_sad_v1_0         | 54631|
+|3     |    compute_sad_v1_0_S00_AXI_inst |compute_sad_v1_0_S00_AXI | 54631|
+|4     |      face                        |sram_dual_port           |     8|
++------+----------------------------------+-------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:03:05 ; elapsed = 00:03:39 . Memory (MB): peak = 1088.938 ; gain = 802.160
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:56 ; elapsed = 00:03:16 . Memory (MB): peak = 1088.938 ; gain = 472.375
+Synthesis Optimization Complete : Time (s): cpu = 00:03:05 ; elapsed = 00:03:40 . Memory (MB): peak = 1088.938 ; gain = 802.160
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1319 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'design_1_compute_sad_0_1' is not ideal for floorplanning, since the cellview 'compute_sad_v1_0_S00_AXI' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+274 Infos, 26 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:03:14 ; elapsed = 00:03:50 . Memory (MB): peak = 1088.938 ; gain = 807.797
+INFO: [Common 17-1381] The checkpoint 'C:/Users/shlab_23/Downloads/0416313/Lab3.runs/design_1_compute_sad_0_1_synth_1/design_1_compute_sad_0_1.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.938 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.938 ; gain = 0.000
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/Users/shlab_23/Downloads/0416313/Lab3.srcs/sources_1/bd/design_1/ip/design_1_compute_sad_0_1/design_1_compute_sad_0_1.xci
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/shlab_23/Downloads/0416313/Lab3.runs/design_1_compute_sad_0_1_synth_1/design_1_compute_sad_0_1.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.938 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.318 . Memory (MB): peak = 1088.938 ; gain = 0.000
+write_vhdl: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1088.938 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 28 14:33:53 2018...

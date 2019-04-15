@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Apr 27 13:09:30 2018
+# Process ID: 10988
+# Current directory: c:/Users/shlab_81/Desktop/midterm
+# Command line: wbtcv.exe -mode batch -source c:/users/shlab_81/desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project/matrix_multiplication_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+# Log file: c:/Users/shlab_81/Desktop/midterm/webtalk.log
+# Journal file: c:/Users/shlab_81/Desktop/midterm\webtalk.jou
+#-----------------------------------------------------------
+source c:/users/shlab_81/desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project/matrix_multiplication_v1_0_v1_0_project.hw/webtalk/labtool_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 61.352 ; gain = 0.207
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 27 13:09:38 2018...

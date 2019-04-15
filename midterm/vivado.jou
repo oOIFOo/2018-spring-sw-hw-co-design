@@ -1,0 +1,426 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Fri Apr 27 10:47:01 2018
+# Process ID: 224
+# Current directory: C:/Users/shlab_81/Desktop/midterm
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4588 C:\Users\shlab_81\Desktop\midterm\midterm.xpr
+# Log file: C:/Users/shlab_81/Desktop/midterm/vivado.log
+# Journal file: C:/Users/shlab_81/Desktop/midterm\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/shlab_81/Desktop/midterm/midterm.xpr
+update_compile_order -fileset sources_1
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+ipx::edit_ip_in_project -upgrade true -name matrix_multiplication_v1_0_v1_0_project -directory C:/Users/shlab_81/Desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project midterm
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+ipx::unload_core c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+open_run impl_1
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+file mkdir C:/Users/shlab_81/Desktop/midterm/midterm.sdk
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+open_bd_design {C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd}
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 3 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 {midterm_matrix_multiplication_0_0_synth_1 midterm_auto_pc_0_synth_1}
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project matrix_multiplication_v1_0_v1_0_project
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0
+ipx::edit_ip_in_project -upgrade true -name matrix_multiplication_v1_0_v1_0_project -directory C:/Users/shlab_81/Desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project midterm
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+report_ip_status -name ip_status 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+reset_run synth_1
+reset_run midterm_matrix_multiplication_0_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+ipx::unload_core c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+report_ip_status -name ip_status 
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+launch_sdk -workspace C:/Users/shlab_81/Desktop/midterm/midterm.sdk -hwspec C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 6 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+file copy -force C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.sysdef C:/Users/shlab_81/Desktop/midterm/midterm.sdk/midterm_wrapper.hdf
+
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 7 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+report_ip_status -name ip_status 
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+open_run synth_1 -name synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+refresh_design
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list midterm_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 5 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[4]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 5 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[4]} ]]
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+current_hw_device [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next} }
+set_property TRIGGER_COMPARE_VALUE eq5'u0 [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+set_property TRIGGER_COMPARE_VALUE eq5'u1 [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 8 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project midterm
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+wait_on_run midterm_matrix_multiplication_0_0_synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+refresh_design
+delete_debug_core [get_debug_cores {u_ila_0 }]
+create_debug_core u_ila_0 ila
+set_property C_DATA_DEPTH 4096 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+startgroup 
+set_property C_EN_STRG_QUAL true [get_debug_cores u_ila_0 ]
+set_property C_ADV_TRIGGER true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0 ]
+set_property ALL_PROBE_SAME_MU_CNT 4 [get_debug_cores u_ila_0 ]
+endgroup
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list midterm_i/processing_system7_0/inst/FCLK_CLK0 ]]
+set_property port_width 32 [get_debug_ports u_ila_0/probe0]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe1]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe2]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe2]
+connect_debug_port u_ila_0/probe2 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansy[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe3]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe3]
+connect_debug_port u_ila_0/probe3 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 5 [get_debug_ports u_ila_0/probe4]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
+connect_debug_port u_ila_0/probe4 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P_next[4]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe5]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
+connect_debug_port u_ila_0/probe5 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe6]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
+connect_debug_port u_ila_0/probe6 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 8 [get_debug_ports u_ila_0/probe7]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe7]
+connect_debug_port u_ila_0/probe7 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/ansx[7]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 32 [get_debug_ports u_ila_0/probe8]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe8]
+connect_debug_port u_ila_0/probe8 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[4]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[5]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[6]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[7]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[8]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[9]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[10]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[11]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[12]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[13]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[14]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[15]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[16]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[17]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[18]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[19]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[20]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[21]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[22]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[23]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[24]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[25]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[26]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[27]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[28]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[29]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[30]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5[31]} ]]
+create_debug_port u_ila_0 probe
+set_property port_width 5 [get_debug_ports u_ila_0/probe9]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe9]
+connect_debug_port u_ila_0/probe9 [get_nets [list {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[0]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[1]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[2]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[3]} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P[4]} ]]
+save_constraints
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4} {midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5} }
+set_property NAME.CUSTOM {slv_reg0[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg0] 
+set_property NAME.CUSTOM {slv_reg1[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg1] 
+set_property NAME.CUSTOM {slv_reg2[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg2] 
+set_property NAME.CUSTOM {slv_reg3[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg3] 
+set_property NAME.CUSTOM {slv_reg4[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg4] 
+set_property NAME.CUSTOM {slv_reg5[31:0]} [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/slv_reg5] 
+set_property TRIGGER_COMPARE_VALUE eq5'hXX [get_hw_probes midterm_i/matrix_multiplication_0/inst/matrix_multiplication_v1_0_S00_AXI_inst/P -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 9 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0
+ipx::edit_ip_in_project -upgrade true -name matrix_multiplication_v1_0_v1_0_project -directory C:/Users/shlab_81/Desktop/midterm/midterm.tmp/matrix_multiplication_v1_0_v1_0_project c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0/component.xml
+update_compile_order -fileset sources_1
+current_project midterm
+report_ip_status -name ip_status 
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+current_project matrix_multiplication_v1_0_v1_0_project
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+current_project midterm
+current_project matrix_multiplication_v1_0_v1_0_project
+current_project midterm
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+current_project matrix_multiplication_v1_0_v1_0_project
+ipx::merge_project_changes files [ipx::current_core]
+set_property core_revision 10 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+close_project -delete
+update_ip_catalog -rebuild -repo_path c:/Users/shlab_81/Desktop/midterm/matrix_multiplication_1.0
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]
+upgrade_ip -vlnv xilinx.com:user:matrix_multiplication:1.0 [get_ips  midterm_matrix_multiplication_0_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips midterm_matrix_multiplication_0_0] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+catch { config_ip_cache -export [get_ips -all midterm_matrix_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all midterm_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd]
+launch_runs -jobs 2 midterm_matrix_multiplication_0_0_synth_1
+export_simulation -of_objects [get_files C:/Users/shlab_81/Desktop/midterm/midterm.srcs/sources_1/bd/midterm/midterm.bd] -directory C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files -ipstatic_source_dir C:/Users/shlab_81/Desktop/midterm/midterm.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/modelsim} {questa=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/questa} {riviera=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/riviera} {activehdl=C:/Users/shlab_81/Desktop/midterm/midterm.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+report_ip_status -name ip_status 
+set_property PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property FULL_PROBES.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.ltx} [get_hw_devices xc7z020_1]
+set_property PROGRAM.FILE {C:/Users/shlab_81/Desktop/midterm/midterm.runs/impl_1/midterm_wrapper.bit} [get_hw_devices xc7z020_1]
+program_hw_devices [get_hw_devices xc7z020_1]
+refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7z020_1] -filter {CELL_NAME=~"u_ila_0"}]]

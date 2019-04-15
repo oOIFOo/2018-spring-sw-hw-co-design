@@ -1,0 +1,163 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu May 10 20:05:44 2018
+# Process ID: 6124
+# Current directory: C:/0416313_lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6084 C:\0416313_lab4\0416313_lab4.xpr
+# Log file: C:/0416313_lab4/vivado.log
+# Journal file: C:/0416313_lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/0416313_lab4/0416313_lab4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/0416313_lab4/ip_repo/my_dma_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'lab4_processing_system7_0_5' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_processing_system7_0_5/lab4_processing_system7_0_5.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_processing_system7_0_5' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_processing_system7_0_5/lab4_processing_system7_0_5_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_processing_system7_0_5' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_processing_system7_0_5/lab4_processing_system7_0_5_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_processing_system7_0_5' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_processing_system7_0_5/lab4_processing_system7_0_5_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_processing_system7_0_5' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_processing_system7_0_5/lab4_processing_system7_0_5_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_my_dma_0_6' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_my_dma_0_6/lab4_my_dma_0_6.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_my_dma_0_6' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_my_dma_0_6/lab4_my_dma_0_6_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_my_dma_0_6' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_my_dma_0_6/lab4_my_dma_0_6_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_my_dma_0_6' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_my_dma_0_6/lab4_my_dma_0_6_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_my_dma_0_6' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_my_dma_0_6/lab4_my_dma_0_6_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_axi_smc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/lab4_axi_smc_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_axi_smc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/lab4_axi_smc_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_axi_smc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/lab4_axi_smc_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_axi_smc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/lab4_axi_smc_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_axi_smc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/lab4_axi_smc_0_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_rst_ps7_0_100M_3' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_rst_ps7_0_100M_3/lab4_rst_ps7_0_100M_3.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_rst_ps7_0_100M_3' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_rst_ps7_0_100M_3/lab4_rst_ps7_0_100M_3_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_rst_ps7_0_100M_3' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_rst_ps7_0_100M_3/lab4_rst_ps7_0_100M_3_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_rst_ps7_0_100M_3' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_rst_ps7_0_100M_3/lab4_rst_ps7_0_100M_3_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_rst_ps7_0_100M_3' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_rst_ps7_0_100M_3/lab4_rst_ps7_0_100M_3_sim_netlist.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_auto_pc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_auto_pc_0/lab4_auto_pc_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_auto_pc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_auto_pc_0/lab4_auto_pc_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_auto_pc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_auto_pc_0/lab4_auto_pc_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_auto_pc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_auto_pc_0/lab4_auto_pc_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'lab4_auto_pc_0' generated file not found 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_auto_pc_0/lab4_auto_pc_0_sim_netlist.vhdl'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:11 . Memory (MB): peak = 857.508 ; gain = 81.965
+update_compile_order -fileset sources_1
+open_bd_design {C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding cell -- user.org:user:my_dma:1.0 - my_dma_0
+Adding cell -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <lab4> from BD file <C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 924.160 ; gain = 23.383
+ipx::edit_ip_in_project -upgrade true -name my_dma_v1_0_v1_0_project -directory C:/0416313_lab4/0416313_lab4.tmp/my_dma_v1_0_v1_0_project c:/0416313_lab4/ip_repo/my_dma_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/0416313_lab4/ip_repo/my_dma_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+INFO: [IP_Flow 19-793] Syncing display name meta-data
+INFO: [IP_Flow 19-798] Syncing taxonomy meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 972.227 ; gain = 23.809
+update_compile_order -fileset sources_1
+current_project 0416313_lab4
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 10 20:08:54 2018] Launched lab4_rst_ps7_0_100M_3_synth_1, lab4_my_dma_0_6_synth_1, lab4_axi_smc_0_synth_1, lab4_processing_system7_0_5_synth_1, lab4_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+lab4_rst_ps7_0_100M_3_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_rst_ps7_0_100M_3_synth_1/runme.log
+lab4_my_dma_0_6_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_my_dma_0_6_synth_1/runme.log
+lab4_axi_smc_0_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_axi_smc_0_synth_1/runme.log
+lab4_processing_system7_0_5_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_processing_system7_0_5_synth_1/runme.log
+lab4_auto_pc_0_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_auto_pc_0_synth_1/runme.log
+synth_1: C:/0416313_lab4/0416313_lab4.runs/synth_1/runme.log
+[Thu May 10 20:08:55 2018] Launched impl_1...
+Run output will be captured here: C:/0416313_lab4/0416313_lab4.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 977.285 ; gain = 0.000
+set_property core_revision 4 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/0416313_lab4/ip_repo/my_dma_1.0'.
+update_ip_catalog: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 995.531 ; gain = 0.000
+report_ip_status -name ip_status
+upgrade_ip -vlnv user.org:user:my_dma:1.0 [get_ips  lab4_my_dma_0_6] -log ip_upgrade.log
+Upgrading 'C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd'
+INFO: [IP_Flow 19-3420] Updated lab4_my_dma_0_6 to use current project options
+Wrote  : <C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd> 
+Wrote  : <C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ui/bd_af2107.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/0416313_lab4/ip_upgrade.log'.
+export_ip_user_files -of_objects [get_ips lab4_my_dma_0_6] -no_script -sync -force -quiet
+generate_target all [get_files  C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd]
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+WARNING: [BD 41-237] Bus Interface property AWUSER_WIDTH does not match between /processing_system7_0/S_AXI_HP0(0) and /axi_smc/M00_AXI(1)
+WARNING: [BD 41-237] Bus Interface property ARUSER_WIDTH does not match between /processing_system7_0/S_AXI_HP0(0) and /axi_smc/M00_AXI(1)
+WARNING: [BD 41-237] Bus Interface property BUSER_WIDTH does not match between /processing_system7_0/S_AXI_HP0(0) and /axi_smc/M00_AXI(1)
+Wrote  : <C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd> 
+Verilog Output written to : C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/hdl/lab4.v
+Verilog Output written to : C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/hdl/lab4_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block my_dma_0 .
+Exporting to file c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/bd_0/hw_handoff/lab4_axi_smc_0.hwh
+Generated Block Design Tcl file c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/bd_0/hw_handoff/lab4_axi_smc_0_bd.tcl
+Generated Hardware Definition File c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_axi_smc_0/bd_0/hdl/lab4_axi_smc_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_smc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/ip/lab4_auto_pc_0/lab4_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/hw_handoff/lab4.hwh
+Generated Block Design Tcl file C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/hw_handoff/lab4_bd.tcl
+Generated Hardware Definition File C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/hdl/lab4.hwdef
+generate_target: Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1138.543 ; gain = 131.559
+catch { config_ip_cache -export [get_ips -all lab4_my_dma_0_6] }
+catch { config_ip_cache -export [get_ips -all lab4_axi_smc_0] }
+catch { config_ip_cache -export [get_ips -all lab4_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd]
+launch_runs -jobs 4 {lab4_axi_smc_0_synth_1 lab4_my_dma_0_6_synth_1 lab4_auto_pc_0_synth_1}
+[Thu May 10 20:10:43 2018] Launched lab4_axi_smc_0_synth_1, lab4_my_dma_0_6_synth_1, lab4_auto_pc_0_synth_1...
+Run output will be captured here:
+lab4_axi_smc_0_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_axi_smc_0_synth_1/runme.log
+lab4_my_dma_0_6_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_my_dma_0_6_synth_1/runme.log
+lab4_auto_pc_0_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/0416313_lab4/0416313_lab4.srcs/sources_1/bd/lab4/lab4.bd] -directory C:/0416313_lab4/0416313_lab4.ip_user_files/sim_scripts -ip_user_files_dir C:/0416313_lab4/0416313_lab4.ip_user_files -ipstatic_source_dir C:/0416313_lab4/0416313_lab4.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/0416313_lab4/0416313_lab4.cache/compile_simlib/modelsim} {questa=C:/0416313_lab4/0416313_lab4.cache/compile_simlib/questa} {riviera=C:/0416313_lab4/0416313_lab4.cache/compile_simlib/riviera} {activehdl=C:/0416313_lab4/0416313_lab4.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu May 10 20:11:31 2018] Launched lab4_axi_smc_0_synth_1, lab4_my_dma_0_6_synth_1, lab4_auto_pc_0_synth_1, synth_1...
+Run output will be captured here:
+lab4_axi_smc_0_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_axi_smc_0_synth_1/runme.log
+lab4_my_dma_0_6_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_my_dma_0_6_synth_1/runme.log
+lab4_auto_pc_0_synth_1: C:/0416313_lab4/0416313_lab4.runs/lab4_auto_pc_0_synth_1/runme.log
+synth_1: C:/0416313_lab4/0416313_lab4.runs/synth_1/runme.log
+[Thu May 10 20:11:32 2018] Launched impl_1...
+Run output will be captured here: C:/0416313_lab4/0416313_lab4.runs/impl_1/runme.log
+current_project my_dma_v1_0_v1_0_project
+current_project 0416313_lab4
+file mkdir C:/0416313_lab4/0416313_lab4.sdk
+file copy -force C:/0416313_lab4/0416313_lab4.runs/impl_1/lab4_wrapper.sysdef C:/0416313_lab4/0416313_lab4.sdk/lab4_wrapper.hdf
+
+launch_sdk -workspace C:/0416313_lab4/0416313_lab4.sdk -hwspec C:/0416313_lab4/0416313_lab4.sdk/lab4_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/0416313_lab4/0416313_lab4.sdk -hwspec C:/0416313_lab4/0416313_lab4.sdk/lab4_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+set_property core_revision 5 [ipx::current_core]
+ipx::create_xgui_files [ipx::current_core]
+ipx::update_checksums [ipx::current_core]
+ipx::save_core [ipx::current_core]
+current_project my_dma_v1_0_v1_0_project
+current_project 0416313_lab4
+current_project my_dma_v1_0_v1_0_project
+current_project 0416313_lab4
+update_ip_catalog -rebuild -scan_changes
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/0416313_lab4/ip_repo/my_dma_1.0'.
+report_ip_status -name ip_status
+current_project my_dma_v1_0_v1_0_project
+current_project 0416313_lab4
+current_project my_dma_v1_0_v1_0_project
+close_project
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 10 21:25:54 2018...

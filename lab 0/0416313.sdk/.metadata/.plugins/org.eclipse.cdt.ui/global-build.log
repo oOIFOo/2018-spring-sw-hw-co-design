@@ -1,0 +1,299 @@
+14:28:03 **** Incremental Build of configuration Release for project lab0 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dhry_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/dhry_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dhry_1.d" -MT"src/dhry_1.o" -o "src/dhry_1.o" "../src/dhry_1.c"
+../src/dhry_1.c:75:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main ()
+ ^
+../src/dhry_1.c: In function 'main':
+../src/dhry_1.c:92:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^
+../src/dhry_1.c:98:33: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   Next_Ptr_Glob = (Rec_Pointer) malloc (sizeof (Rec_Type));
+                                 ^
+../src/dhry_1.c:98:33: warning: incompatible implicit declaration of built-in function 'malloc'
+../src/dhry_1.c:98:33: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+../src/dhry_1.c:106:3: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+   strcpy (Ptr_Glob->variant.var_1.Str_Comp,
+   ^
+../src/dhry_1.c:106:3: warning: incompatible implicit declaration of built-in function 'strcpy'
+../src/dhry_1.c:106:3: note: include '<string.h>' or provide a declaration of 'strcpy'
+../src/dhry_1.c:155:5: warning: implicit declaration of function 'Proc_5' [-Wimplicit-function-declaration]
+     Proc_5();
+     ^
+../src/dhry_1.c:156:5: warning: implicit declaration of function 'Proc_4' [-Wimplicit-function-declaration]
+     Proc_4();
+     ^
+../src/dhry_1.c:162:19: warning: implicit declaration of function 'Func_2' [-Wimplicit-function-declaration]
+     Bool_Glob = ! Func_2 (Str_1_Loc, Str_2_Loc);
+                   ^
+../src/dhry_1.c:168:7: warning: implicit declaration of function 'Proc_7' [-Wimplicit-function-declaration]
+       Proc_7 (Int_1_Loc, Int_2_Loc, &Int_3_Loc);
+       ^
+../src/dhry_1.c:173:5: warning: implicit declaration of function 'Proc_8' [-Wimplicit-function-declaration]
+     Proc_8 (Arr_1_Glob, Arr_2_Glob, Int_1_Loc, Int_3_Loc);
+     ^
+../src/dhry_1.c:175:5: warning: implicit declaration of function 'Proc_1' [-Wimplicit-function-declaration]
+     Proc_1 (Ptr_Glob);
+     ^
+../src/dhry_1.c:182:9: warning: implicit declaration of function 'Proc_6' [-Wimplicit-function-declaration]
+         Proc_6 (Ident_1, &Enum_Loc);
+         ^
+../src/dhry_1.c:193:5: warning: implicit declaration of function 'Proc_2' [-Wimplicit-function-declaration]
+     Proc_2 (&Int_1_Loc);
+     ^
+../src/dhry_1.c:333:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^
+../src/dhry_1.c: At top level:
+../src/dhry_1.c:337:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_1 (Ptr_Val_Par)
+ ^
+../src/dhry_1.c: In function 'Proc_1':
+../src/dhry_1.c:353:3: warning: implicit declaration of function 'Proc_3' [-Wimplicit-function-declaration]
+   Proc_3 (&Next_Record->Ptr_Comp);
+   ^
+../src/dhry_1.c: At top level:
+../src/dhry_1.c:371:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_2 (Int_Par_Ref)
+ ^
+../src/dhry_1.c:394:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_3 (Ptr_Ref_Par)
+ ^
+../src/dhry_1.c:409:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_4 () /* without parameters */
+ ^
+../src/dhry_1.c:421:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_5 () /* without parameters */
+ ^
+../src/dhry_1.c: In function 'Proc_1':
+../src/dhry_1.c:368:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_1 */
+ ^
+../src/dhry_1.c: In function 'Proc_2':
+../src/dhry_1.c:391:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_2 */
+ ^
+../src/dhry_1.c: In function 'Proc_3':
+../src/dhry_1.c:406:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_3 */
+ ^
+../src/dhry_1.c: In function 'Proc_4':
+../src/dhry_1.c:418:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_4 */
+ ^
+../src/dhry_1.c: In function 'Proc_5':
+../src/dhry_1.c:427:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_5 */
+ ^
+'Finished building: ../src/dhry_1.c'
+' '
+'Building file: ../src/dhry_2.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/dhry_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dhry_2.d" -MT"src/dhry_2.o" -o "src/dhry_2.o" "../src/dhry_2.c"
+../src/dhry_2.c:30:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_6 (Enum_Val_Par, Enum_Ref_Par)
+ ^
+../src/dhry_2.c: In function 'Proc_6':
+../src/dhry_2.c:39:9: warning: implicit declaration of function 'Func_3' [-Wimplicit-function-declaration]
+   if (! Func_3 (Enum_Val_Par))
+         ^
+../src/dhry_2.c: At top level:
+../src/dhry_2.c:64:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_7 (Int_1_Par_Val, Int_2_Par_Val, Int_Par_Ref)
+ ^
+../src/dhry_2.c:84:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_8 (Arr_1_Par_Ref, Arr_2_Par_Ref, Int_1_Par_Val, Int_2_Par_Val)
+ ^
+../src/dhry_2.c: In function 'Func_2':
+../src/dhry_2.c:164:9: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+     if (strcmp (Str_1_Par_Ref, Str_2_Par_Ref) > 0)
+         ^
+../src/dhry_2.c: In function 'Proc_6':
+../src/dhry_2.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_6 */
+ ^
+../src/dhry_2.c: In function 'Proc_7':
+../src/dhry_2.c:81:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_7 */
+ ^
+../src/dhry_2.c: In function 'Proc_8':
+../src/dhry_2.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_8 */
+ ^
+'Finished building: ../src/dhry_2.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: lab0.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab0_bsp/ps7_cortexa9_0/lib -o "lab0.elf"  ./src/dhry_1.o ./src/dhry_2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab0.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab0.elf  |tee "lab0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79196	   2584	  22320	 104100	  196a4	lab0.elf
+'Finished building: lab0.elf.size'
+' '
+14:28:13 **** Clean-only build of configuration Release for project lab0 ****
+make clean 
+rm -rf  ./src/dhry_1.o ./src/dhry_2.o ./src/platform.o  ./src/dhry_1.d ./src/dhry_2.d ./src/platform.d  lab0.elf.size  lab0.elf
+' '
+14:28:13 **** Auto Build of configuration Release for project lab0 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/dhry_1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/dhry_1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dhry_1.d" -MT"src/dhry_1.o" -o "src/dhry_1.o" "../src/dhry_1.c"
+../src/dhry_1.c:75:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ main ()
+ ^
+../src/dhry_1.c: In function 'main':
+../src/dhry_1.c:92:3: warning: implicit declaration of function 'init_platform' [-Wimplicit-function-declaration]
+   init_platform();
+   ^
+../src/dhry_1.c:98:33: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   Next_Ptr_Glob = (Rec_Pointer) malloc (sizeof (Rec_Type));
+                                 ^
+../src/dhry_1.c:98:33: warning: incompatible implicit declaration of built-in function 'malloc'
+../src/dhry_1.c:98:33: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+../src/dhry_1.c:106:3: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+   strcpy (Ptr_Glob->variant.var_1.Str_Comp,
+   ^
+../src/dhry_1.c:106:3: warning: incompatible implicit declaration of built-in function 'strcpy'
+../src/dhry_1.c:106:3: note: include '<string.h>' or provide a declaration of 'strcpy'
+../src/dhry_1.c:155:5: warning: implicit declaration of function 'Proc_5' [-Wimplicit-function-declaration]
+     Proc_5();
+     ^
+../src/dhry_1.c:156:5: warning: implicit declaration of function 'Proc_4' [-Wimplicit-function-declaration]
+     Proc_4();
+     ^
+../src/dhry_1.c:162:19: warning: implicit declaration of function 'Func_2' [-Wimplicit-function-declaration]
+     Bool_Glob = ! Func_2 (Str_1_Loc, Str_2_Loc);
+                   ^
+../src/dhry_1.c:168:7: warning: implicit declaration of function 'Proc_7' [-Wimplicit-function-declaration]
+       Proc_7 (Int_1_Loc, Int_2_Loc, &Int_3_Loc);
+       ^
+../src/dhry_1.c:173:5: warning: implicit declaration of function 'Proc_8' [-Wimplicit-function-declaration]
+     Proc_8 (Arr_1_Glob, Arr_2_Glob, Int_1_Loc, Int_3_Loc);
+     ^
+../src/dhry_1.c:175:5: warning: implicit declaration of function 'Proc_1' [-Wimplicit-function-declaration]
+     Proc_1 (Ptr_Glob);
+     ^
+../src/dhry_1.c:182:9: warning: implicit declaration of function 'Proc_6' [-Wimplicit-function-declaration]
+         Proc_6 (Ident_1, &Enum_Loc);
+         ^
+../src/dhry_1.c:193:5: warning: implicit declaration of function 'Proc_2' [-Wimplicit-function-declaration]
+     Proc_2 (&Int_1_Loc);
+     ^
+../src/dhry_1.c:333:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^
+../src/dhry_1.c: At top level:
+../src/dhry_1.c:337:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_1 (Ptr_Val_Par)
+ ^
+../src/dhry_1.c: In function 'Proc_1':
+../src/dhry_1.c:353:3: warning: implicit declaration of function 'Proc_3' [-Wimplicit-function-declaration]
+   Proc_3 (&Next_Record->Ptr_Comp);
+   ^
+../src/dhry_1.c: At top level:
+../src/dhry_1.c:371:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_2 (Int_Par_Ref)
+ ^
+../src/dhry_1.c:394:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_3 (Ptr_Ref_Par)
+ ^
+../src/dhry_1.c:409:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_4 () /* without parameters */
+ ^
+../src/dhry_1.c:421:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_5 () /* without parameters */
+ ^
+../src/dhry_1.c: In function 'Proc_1':
+../src/dhry_1.c:368:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_1 */
+ ^
+../src/dhry_1.c: In function 'Proc_2':
+../src/dhry_1.c:391:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_2 */
+ ^
+../src/dhry_1.c: In function 'Proc_3':
+../src/dhry_1.c:406:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_3 */
+ ^
+../src/dhry_1.c: In function 'Proc_4':
+../src/dhry_1.c:418:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_4 */
+ ^
+../src/dhry_1.c: In function 'Proc_5':
+../src/dhry_1.c:427:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_5 */
+ ^
+'Finished building: ../src/dhry_1.c'
+' '
+'Building file: ../src/dhry_2.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/dhry_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/dhry_2.d" -MT"src/dhry_2.o" -o "src/dhry_2.o" "../src/dhry_2.c"
+../src/dhry_2.c:30:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_6 (Enum_Val_Par, Enum_Ref_Par)
+ ^
+../src/dhry_2.c: In function 'Proc_6':
+../src/dhry_2.c:39:9: warning: implicit declaration of function 'Func_3' [-Wimplicit-function-declaration]
+   if (! Func_3 (Enum_Val_Par))
+         ^
+../src/dhry_2.c: At top level:
+../src/dhry_2.c:64:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_7 (Int_1_Par_Val, Int_2_Par_Val, Int_Par_Ref)
+ ^
+../src/dhry_2.c:84:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ Proc_8 (Arr_1_Par_Ref, Arr_2_Par_Ref, Int_1_Par_Val, Int_2_Par_Val)
+ ^
+../src/dhry_2.c: In function 'Func_2':
+../src/dhry_2.c:164:9: warning: implicit declaration of function 'strcmp' [-Wimplicit-function-declaration]
+     if (strcmp (Str_1_Par_Ref, Str_2_Par_Ref) > 0)
+         ^
+../src/dhry_2.c: In function 'Proc_6':
+../src/dhry_2.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_6 */
+ ^
+../src/dhry_2.c: In function 'Proc_7':
+../src/dhry_2.c:81:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_7 */
+ ^
+../src/dhry_2.c: In function 'Proc_8':
+../src/dhry_2.c:106:1: warning: control reaches end of non-void function [-Wreturn-type]
+ } /* Proc_8 */
+ ^
+'Finished building: ../src/dhry_2.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../lab0_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: lab0.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../lab0_bsp/ps7_cortexa9_0/lib -o "lab0.elf"  ./src/dhry_1.o ./src/dhry_2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: lab0.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size lab0.elf  |tee "lab0.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79196	   2584	  22320	 104100	  196a4	lab0.elf
+'Finished building: lab0.elf.size'
+' '
+14:28:37 **** Incremental Build of configuration Release for project lab0 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
